@@ -1,0 +1,34 @@
+
+theme = "gruvbox_dark_hard"
+
+[editor]
+
+# clipboard-provider = "x-clip"
+# default-yank-register = "+"
+
+line-number = "relative"
+scrolloff = 0
+
+cursorline = true
+# cursorcolumn = true
+
+color-modes = true
+
+[editor.soft-wrap]
+
+enable = true
+
+[editor.cursor-shape]
+
+insert = "bar"
+
+[keys.normal]
+
+# "C-b" = ":write | :sh typst watch %:p"
+
+# C-y = [
+#   ':sh rm -f /tmp/yazi-path',
+#   ':insert-output yazi %{buffer_name} --chooser-file=/tmp/yazi-path',
+#   ':open %sh{cat /tmp/yazi-path}',
+#   ':redraw'
+# ]
