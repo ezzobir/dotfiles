@@ -47,7 +47,7 @@ setxkbmap -layout us,ara -variant ,digits -option grp:win_space_toggle
 xset r rate 200 30 &
 
 # set random backgroun
-DISPLAY=:0 feh --no-fehbg --bg-fill --randomize /home/ezzobir/dotfiles/Wallpapers &
+DISPLAY=:0 feh --no-fehbg --bg-fill --randomize /home/ezzobir/efs/repos/github.com/wallpapers &
 
 # default brightness
 brightnessctl set 5% &
