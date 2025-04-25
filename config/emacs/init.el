@@ -1,4 +1,11 @@
 
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;; Comment/uncomment this line to enable MELPA Stable if desired.  See `package-archive-priorities`
+;; and `package-pinned-packages`. Most users will not need or want to do this.
+;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+(package-initialize)
+
 (setq inhibit-startup-screen t)            ;; Disable the startup screen
 
 (menu-bar-mode 0)                         ;; Disable the menu bar 
@@ -12,6 +19,7 @@
 (setq display-line-numbers-type 'relative) ;; Make line numbers relative
 
 (global-hl-line-mode t)                    ;; Toggle line highlighting in all buffers
+
 (global-visual-line-mode t)                ;; Enable truncated lines
 
 (electric-pair-mode 1)
@@ -77,10 +85,37 @@
 (setq make-backup-files t)  ;; Make backup files and is by default true
 (setq backup-directory-alist '((".*" . "~/.local/share/Trash/files")))
 
-;; DUBLICATE LINE
-(global-set-key (kbd "C-,") 'duplicate-line)
 
-;; TOGGLE WINDOW SPLIT
+;; مضاعفة السطر الحالي أو المنطقة المُحددة
+(defun duplicate-current-line-or-region (arg)
+  "Duplicates the current line or region ARG times.
+If there's no region, the current line will be duplicated. However, if
+there's a region, all lines that region covers will be duplicated."
+  (interactive "p")
+  (let (beg end (origin (point)))
+    (if (and mark-active (> (point) (mark)))
+        (exchange-point-and-mark))
+    (setq beg (line-beginning-position))
+    (if mark-active
+        (exchange-point-and-mark))
+    (setq end (line-end-position))
+    (let ((region (buffer-substring-no-properties beg end)))
+      (dotimes (i arg)
+        (goto-char end)
+        (newline)
+        (insert region)
+        (setq end (point)))
+      (goto-char (+ origin (* (length region) arg) arg)))))
+      
+(global-set-key (kbd "C-,") 'duplicate-current-line-or-region) ;; اختصار لوحة المفاتيح لتفعيل هذه الدالة
+
+;; ;; DUBLICATE LINE
+;; (global-set-key (kbd "C-,") 'duplicate-line)
+
+;; OVERWRITE MODE
+(global-set-key (kbd "C-c o") 'overwrite-mode)
+
+;; Toggle WINDOW SPLIT
 (defun toggle-window-split ()
 (interactive)
 (if (= (count-windows) 2)
