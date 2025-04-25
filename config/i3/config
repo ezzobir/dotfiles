@@ -233,4 +233,8 @@ bindsym $mod+g exec --no-startup-id gromit-mpx
 
 #-----------------------------------------------------------
  
-exec xinput set-prop "DLL06F3:00 06CB:75DA Touchpad" "libinput Tapping Enabled" 1
+# # acer
+# xinput set-prop "ELAN0501:00 04F3:300B Touchpad" "libinput Tapping Enabled" 1
+
+# # dell
+# exec xinput set-prop "DLL06F3:00 06CB:75DA Touchpad" "libinput Tapping Enabled" 1
