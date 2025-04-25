@@ -160,13 +160,10 @@ there's a region, all lines that region covers will be duplicated."
 ;; TYPST
 ;; typst-ts-mode
 (use-package typst-ts-mode
-  :ensure t
-  :custom
-  (typst-ts-watch-options "--open")
-  (typst-ts-mode-grammar-location (expand-file-name "tree-sitter/libtree-sitter-typst.so" user-emacs-directory))
-  (typst-ts-mode-enable-raw-blocks-highlight t)
-  :config
-  (keymap-set typst-ts-mode-map "C-c C-c" #'typst-ts-tmenu))
+  :ensure t)
+
+(keymap-set typst-ts-mode-map "C-c C-c" #'typst-ts-tmenu)
+
 
 ;; CUSTOM FILE
 (setq custom-file "~/.config/emacs/emacs-custom.el")
