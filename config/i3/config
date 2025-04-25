@@ -27,13 +27,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-# Use pactl to adjust volume in PulseAudio.
-set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
-
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -228,15 +221,16 @@ bindsym $mod+minus exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
 bindsym $mod+BackSpace exec wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
 
 # brightness
-bindsym $mod+Control+equal exec brightnessctl set +1%
-bindsym $mod+Control+minus exec brightnessctl set 1%-
+bindsym $mod+Control+equal exec brightnessctl set +1
+bindsym $mod+Control+minus exec brightnessctl set 1-
 
 # essential
 bindsym $mod+Control+p exec --no-startup-id flameshot gui
-bindsym $mod+x exec --no-startup-id /home/ezzobir/dotfiles/scripts/dmenu/powermenu.sh
+bindsym $mod+x exec --no-startup-id /home/ezzobir/efs/repos/github.com/dotfiles/scripts/dmenu/powermenu.sh
 bindsym $mod+y exec --no-startup-id pkill polybar || /home/ezzobir/.config/polybar/launch.sh &
 bindsym $mod+w exec --no-startup-id /home/ezzobir/efs/repos/github.com/boomer/boomer
 bindsym $mod+g exec --no-startup-id gromit-mpx
 
 #-----------------------------------------------------------
-
+ 
+exec xinput set-prop "DLL06F3:00 06CB:75DA Touchpad" "libinput Tapping Enabled" 1
