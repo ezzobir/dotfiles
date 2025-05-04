@@ -53,7 +53,7 @@ xset r rate 200 30 &
 DISPLAY=:0 feh --no-fehbg --bg-fill --randomize /home/ezzobir/efs/repos/github.com/wallpapers &
 
 # default brightness
-brightnessctl set 5% &
+brightnessctl set 1 &
 
 dunst &
 
