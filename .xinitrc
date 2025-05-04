@@ -43,6 +43,9 @@ fi
 # setxkbmap -model pc104alt -layout us,ara -variant ,digits -option grp:win_space_toggle caps:escape
 setxkbmap -layout us,ara -variant ,digits -option grp:win_space_toggle
 
+# add configure touchpad
+# exec xinput set-prop "DLL06F3:00 06CB:75DA Touchpad" "libinput Tapping Enabled" 1
+
 # set the X11 typematic delay and repeat
 xset r rate 200 30 &
 
