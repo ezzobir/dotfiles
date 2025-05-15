@@ -2,6 +2,8 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+set -Ux COLORTERM truecolor
+
 # BEGIN ENVIRONMENT VARIABLES
 # -----------------------------------------------------
 set -x QT_QPA_PLATFORMTHEME qt5ct
