@@ -2,7 +2,7 @@
 ##########################################################
 # Title: My Zathura PDF Viwer Configuration
 # Author: Ezzobir Bezziou
-# Link to this file: https://github.com/ezzobir/dotfiles/tree/main/.config/zathura
+# Link to this file: https://github.com/ezzobir/dotfiles/blob/main/config/zathura/zathurarc
 # Link to my dotfiles: www.github.com/ezzobir/dotfiles
 ##########################################################
 # end information
@@ -16,8 +16,14 @@ set recolor true
 # auto adjustment
 set adjust-open "width"
 
-# space between pages
-set page-padding 10
+# # space between pages
+# set page-padding 10
+
+set sandbox none
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+set selection-clipboard clipboard
 
 # scroll-step
 ##########################################################
@@ -33,13 +39,13 @@ map <C-h> navigate previous
 
 # next page
 map <C-l> navigate next
-
+ 
 # switch between dark and light mode
 map i recolor
-
+ 
 # zoom in
 map <C-i> zoom in
-
+ 
 # zoom out
 map <C-o> zoom out
 
@@ -56,19 +62,29 @@ map w adjust_window width
 map b adjust_window best-fit
 
 # full screen
-# map f toggle_fullscreen
-
+map f toggle_fullscreen
+ 
 # reload
-map R reload
-
+map r reload
+ 
 # rotate
-map r rotate
-
+map R rotate
+ 
 # print
 map <C-p> print
 
 # index
 map <Tab> index_navigate 
+
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map [fullscreen] u scroll half-up
+map [fullscreen] d scroll half-down
+map [fullscreen] D toggle_page_mode
+map [fullscreen] r reload
+map [fullscreen] R rotate
+map [fullscreen] i recolor
 ##########################################################
 # end my keybinding
 
