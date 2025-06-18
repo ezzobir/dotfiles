@@ -123,7 +123,7 @@ alias dap='yt-dlp -x --audio-format mp3 -o "%(title)s.%(ext)s"'
 alias dac='yt-dlp --extract-audio --audio-format mp3 --ignore-errors'
 alias dv='yt-dlp -f mp4'
 alias dvp='yt-dlp -o "%(playlist_index)s_%(title)s.%(ext)s" -f mp4 --yes-playlist'
-alias wv = 'mpv --ytdl-format='bestvideo[height<=1080]+bestaudio/best[height<=1080]'
+alias wv="mpv --ytdl-format='bestvideo[height<=1080]+bestaudio/best[height<=1080]'"
 
 # -----------------------------------------------------
 # YTFZF
