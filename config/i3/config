@@ -236,6 +236,7 @@ bindsym $mod+u exec --no-startup-id /home/ezzobir/efs/repos/github.com/dotfiles/
 bindsym $mod+w exec --no-startup-id /home/ezzobir/efs/repos/github.com/boomer/boomer
 bindsym $mod+g exec --no-startup-id gromit-mpx
 bindsym $mod+t exec --no-startup-id zathura /home/ezzobir/efs/repos/github.com/secondary-school/math/teacher_tt/doucen/timetable.pdf
+bindsym $mod+o exec --no-startup-id mpv --ytdl-format='bestvideo[height<=1080]+bestaudio/best[height<=1080]' "$(xclip -o -selection clipboard)"
 #-----------------------------------------------------------
  
 exec xinput set-prop "DLL06F3:00 06CB:75DA Touchpad" "libinput Tapping Enabled" 1
