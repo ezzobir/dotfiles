@@ -68,6 +68,7 @@ I use both [emacs](https://www.gnu.org/software/emacs/) and [Helix](https://heli
     - [sc-im](https://github.com/andmarti1424/sc-im)
 - Typesetting System (for writing documents specially mathematics)
     - [Typst](https://typst.app/)
+    - [Tyx](https://tyx-editor.com/) front-end for Typst
     - [LaTeX](https://www.latex-project.org/)
     - [LyX](https://www.lyx.org/) front-end for LaTeX
 - Office suite
