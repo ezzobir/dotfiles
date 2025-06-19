@@ -1,4 +1,5 @@
- Dotfiles
+# Dotfiles
+
 This is my dotfiles for programms that I use
 
 ---
@@ -10,7 +11,7 @@ All programs mentioned in this repository are FOSS (Free and Open Source Softwar
 
 ## My OS
 
-I use [Arch Linux](https://archlinux.org/).
+I use [Arch Linux](https://archlinux.org/) btw (hhh...).
 
 Other Linux Distribution I Love: [NixOS](https://nixos.org/) and [Debian](https://debian.org/)
 
@@ -52,6 +53,7 @@ I use both [emacs](https://www.gnu.org/software/emacs/) and [Helix](https://heli
     - [mpv](https://mpv.io/)
     - [vlc](https://www.videolan.org/vlc/)
 - Audio player
+    - [mpd](https://github.com/MusicPlayerDaemon/MPD)+[rmpc](https://github.com/mierak/rmpc) or
     - [mpd](https://github.com/MusicPlayerDaemon/MPD)+[mpc](https://github.com/MusicPlayerDaemon/mpc)+[ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)+[mpDris2](https://github.com/eonpatapon/mpDris2)
 - Image Viewer
     - [imv](https://sr.ht/~exec64/imv/) ( On X11 and Wayland)
