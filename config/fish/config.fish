@@ -120,8 +120,8 @@ alias confi3='helix ~/.config/i3/config'
 
 # BEGIN FLATPAK APPS
 # -----------------------------------------------------
-alias sioyek='flatpak run com.github.ahrm.sioyek'
-alias lyx='flatpak run org.lyx.LyX'
+# alias sioyek='flatpak run com.github.ahrm.sioyek'
+# alias lyx='flatpak run org.lyx.LyX'
 alias spotify='flatpak run com.spotify.Client'
 # -----------------------------------------------------
 # END FLATPAK APPS
