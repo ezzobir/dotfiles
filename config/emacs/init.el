@@ -8,7 +8,7 @@
 
 (setq inhibit-startup-screen t)            ;; Disable the startup screen
 
-(menu-bar-mode 0)                         ;; Disable the menu bar 
+(menu-bar-mode 0)                         ;; Disable the menu bar
 (tool-bar-mode 0)                         ;; Disable the tool bar
 (scroll-bar-mode 0)                       ;; Disable the scroll bar
 
@@ -168,3 +168,19 @@ there's a region, all lines that region covers will be duplicated."
 ;; CUSTOM FILE
 (setq custom-file "~/.config/emacs/emacs-custom.el")
 (load-file "~/.config/emacs/emacs-custom.el")
+
+;; C++ configs
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defun my-compile-and-run-cpp ()
+  "Compile and run the current C++ file."
+  (interactive)
+  (let* ((file (buffer-file-name))
+         (output (file-name-sans-extension file)))
+    (compile (format "g++ %s -o %s && ./%s"
+                     file output (file-name-nondirectory output)))))
+
+;; Bind C-c C-c only in C++ mode
+(add-hook 'c++-mode-hook
+          (lambda ()
+            (local-set-key (kbd "C-c C-c") 'my-compile-and-run-cpp)))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
