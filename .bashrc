@@ -19,7 +19,7 @@ set -o vi
 # PATH
 # -----------------------------------------------------
 
-PATH=$PATH:/home/ezzobir/dotfiles/scripts
+PATH=$PATH:/home/ezzobir/efs/repos/github.com/dotfiles/scripts
 
 # -----------------------------------------------------
 # FAVORITE EDITOR
