@@ -12,7 +12,7 @@ set -x QT_QPA_PLATFORMTHEME qt5ct
 
 # BEGIN PATH
 # -----------------------------------------------------
-set -U fish_user_paths /home/ezzobir/efs/repos/github.com/dotfiles/scripts $fish_user_paths
+set -U fish_user_paths /home/ezzobir/efs/repos/github.com/dotfiles/scripts/rofi $fish_user_paths
 # -----------------------------------------------------
 # END PATH
 
