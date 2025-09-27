@@ -38,6 +38,9 @@
   :ensure t)
 (load-theme 'gruvbox-dark-hard t)
 
+;; TRANSPARENCY
+(add-to-list 'default-frame-alist '(alpha-background . 90))
+
 ;; DIRECTION AND INPUT METHOD
 ;; (setq bidi-paragraph-direction left-to-right)
 
@@ -183,4 +186,22 @@ there's a region, all lines that region covers will be duplicated."
 (add-hook 'c++-mode-hook
           (lambda ()
             (local-set-key (kbd "C-c C-c") 'my-compile-and-run-cpp)))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; hyprlang
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(add-to-list 'treesit-language-source-alist
+        '(hyprlang "https://github.com/tree-sitter-grammars/tree-sitter-hyprlang"))
+
+(use-package hyprlang-ts-mode
+  :ensure t
+  :custom
+  (hyprlang-ts-mode-indent-offset 4))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; org mode
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(use-package toc-org
+    :commands toc-org-enable
+    :init (add-hook 'org-mode-hook 'toc-org-enable))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
