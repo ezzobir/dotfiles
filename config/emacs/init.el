@@ -205,3 +205,19 @@ there's a region, all lines that region covers will be duplicated."
     :commands toc-org-enable
     :init (add-hook 'org-mode-hook 'toc-org-enable))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; multiple cursors
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Package setup (use-package style)
+(use-package multiple-cursors
+  :ensure t
+  :bind (("C->"     . mc/mark-next-like-this)
+         ("C-<"     . mc/mark-previous-like-this)
+         ("C-c C-<" . mc/mark-all-like-this)
+         ("C-S-c C-S-c" . mc/edit-lines)))
+
+;; Optional but very Tsoding-like
+(use-package expand-region
+  :ensure t
+  :bind (("C-=" . er/expand-region)))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
