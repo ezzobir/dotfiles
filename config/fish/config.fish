@@ -38,27 +38,23 @@ bind \cp paste_from_clipboard
 # -----------------------------------------------------
 # END HANDLE THE CLIPBOARD PASTE
 
-# BEGIN DEFAULT EDITOR
-# -----------------------------------------------------
-set -Ux EDITOR helix
-set -Ux VISUAL helix
-# -----------------------------------------------------
-# END DEFAULT EDITOR
-
 # BEGIN PACMAN
 # -----------------------------------------------------
 alias u='doas pacman -Syu'
 alias i='doas pacman -S'
 alias q='doas pacman -Ss'
-# BEGIN DEFAULT EDITOR
-# -----------------------------------------------------
-set -Ux EDITOR helix
-set -Ux VISUAL helix
-# -----------------------------------------------------
-
 alias r='doas pacman -Rns'
 # -----------------------------------------------------
 # END PACMAN
+
+# BEGIN DEFAULT EDITOR
+# -----------------------------------------------------
+set -Ux EDITOR "emacs -nw"
+set -Ux VISUAL "emacs -nw"
+# set -Ux EDITOR helix
+# set -Ux VISUAL helix
+# -----------------------------------------------------
+# END DEFAULT EDITOR
 
 # BEGIN PARU
 # -----------------------------------------------------
