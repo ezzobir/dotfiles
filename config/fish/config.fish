@@ -49,10 +49,10 @@ alias r='doas pacman -Rns'
 
 # BEGIN DEFAULT EDITOR
 # -----------------------------------------------------
-set -Ux EDITOR "emacs -nw"
-set -Ux VISUAL "emacs -nw"
-# set -Ux EDITOR helix
-# set -Ux VISUAL helix
+# set -Ux EDITOR "emacs -nw"
+# set -Ux VISUAL "emacs -nw"
+set -Ux EDITOR helix
+set -Ux VISUAL helix
 # -----------------------------------------------------
 # END DEFAULT EDITOR
 
