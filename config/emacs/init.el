@@ -110,7 +110,7 @@ there's a region, all lines that region covers will be duplicated."
         (setq end (point)))
       (goto-char (+ origin (* (length region) arg) arg)))))
       
-(global-set-key (kbd "C-,") 'duplicate-current-line-or-region) ;; اختصار لوحة المفاتيح لتفعيل هذه الدالة
+(global-set-key (kbd "C-,") 'duplicate-current-line-or-region)
 
 ;; ;; DUBLICATE LINE
 ;; (global-set-key (kbd "C-,") 'duplicate-line)
@@ -221,3 +221,19 @@ there's a region, all lines that region covers will be duplicated."
   :ensure t
   :bind (("C-=" . er/expand-region)))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; embrace
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(use-package embrace
+  :ensure t)
+(global-set-key (kbd "C-.") #'embrace-commander)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; change-inner
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(use-package change-inner
+  :ensure t)
+(global-set-key (kbd "M-i") 'change-inner)
+(global-set-key (kbd "M-o") 'change-outer)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
