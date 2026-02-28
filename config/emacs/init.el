@@ -34,9 +34,16 @@
 (set-face-attribute 'default nil :font "Iosevka Nerd Font" :height 180)
 
 ;; THEME
-(use-package gruvbox-theme
-  :ensure t)
-(load-theme 'gruvbox-dark-hard t)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (use-package gruvbox-theme
+  ;; :ensure t)
+;; (load-theme 'gruvbox-dark-hard t)
+
+;; (use-package gruber-darker-theme
+  ;; :ensure t)
+;; (load-theme 'gruber-darker t)
+(load-theme 'modus-vivendi-deuteranopia t)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; TRANSPARENCY
 (add-to-list 'default-frame-alist '(alpha-background . 90))
@@ -161,16 +168,28 @@ there's a region, all lines that region covers will be duplicated."
 (global-set-key (kbd "M-g l") 'avy-goto-line) ;; القفز إلى سطر
 
 ;; TYPST
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; typst-ts-mode
 (use-package typst-ts-mode
   :ensure t)
 
 (keymap-set typst-ts-mode-map "C-c C-c" #'typst-ts-tmenu)
 
+;; tinymist
+(with-eval-after-load 'eglot
+  (with-eval-after-load 'typst-ts-mode
+    (add-to-list 'eglot-server-programs
+                 `((typst-ts-mode) .
+                   ,(eglot-alternatives `(,typst-ts-lsp-download-path
+                                          "tinymist"
+                                          "typst-lsp"))))))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; CUSTOM FILE
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (setq custom-file "~/.config/emacs/emacs-custom.el")
 (load-file "~/.config/emacs/emacs-custom.el")
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; C++ configs
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -236,4 +255,3 @@ there's a region, all lines that region covers will be duplicated."
 (global-set-key (kbd "M-i") 'change-inner)
 (global-set-key (kbd "M-o") 'change-outer)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
