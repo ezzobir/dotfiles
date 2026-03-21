@@ -1,6 +1,5 @@
 # position = "Bottom"
 
-
 enable_esc_key = true
 
 [modules]
@@ -20,4 +19,4 @@ format = "%A %d %B %Y | %X"
 
 [appearance]
 # font_name = "Iosevka Nerd Font"
-style = "solid"
+# style = "Solid"
