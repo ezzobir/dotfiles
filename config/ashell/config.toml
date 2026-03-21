@@ -20,4 +20,4 @@ format = "%A %d %B %Y | %X"
 
 [appearance]
 # font_name = "Iosevka Nerd Font"
-style = "Gradient"
+style = "solid"
