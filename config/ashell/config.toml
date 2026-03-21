@@ -1,0 +1,23 @@
+# position = "Bottom"
+
+
+enable_esc_key = true
+
+[modules]
+left = [ ["Workspaces"] ]
+# center = [ "WindowTitle" ]
+# center = [ "MediaPlayer" ]
+right = [ ["SystemInfo"], ["KeyboardLayout"], ["Clock"], ["Privacy"], ["Settings" ] ]
+
+[keyboard_layout.labels]
+"English (US)" = "🇺🇸"
+"Arabic" = "🇩🇿"
+
+[clock]
+# format = "%A %d %B %Y | %k:%M:%S"
+# format = "%A %d %B %Y | %T"
+format = "%A %d %B %Y | %X"
+
+[appearance]
+# font_name = "Iosevka Nerd Font"
+style = "Gradient"

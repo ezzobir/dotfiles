@@ -1,0 +1,42 @@
+#  ~/.config/rio/config.toml
+theme = "GruvboxDarkHard"
+
+padding-x = 10
+
+[window]
+width = 1024
+height = 768
+opacity = 0.8
+blur = false
+
+[fonts]
+size = 24
+features = []
+use-drawable-chars = true
+symbol-map = []
+disable-warnings-not-found = false
+additional-dirs = []
+
+[fonts.regular]
+family = "Iosevka Nerd Font"
+style = "Normal"
+width = "Normal"
+weight = 400
+
+[fonts.bold]
+family = "Iosevka Nerd Font"
+style = "Normal"
+width = "Normal"
+weight = 800
+
+[fonts.italic]
+family = "Iosevka Nerd Font"
+style = "Italic"
+width = "Normal"
+weight = 400
+
+[fonts.bold-italic]
+family = "Iosevka Nerd Font"
+style = "Italic"
+width = "Normal"
+weight = 800
