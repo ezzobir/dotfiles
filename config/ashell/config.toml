@@ -6,16 +6,15 @@ enable_esc_key = true
 left = [ ["Workspaces"] ]
 # center = [ "WindowTitle" ]
 # center = [ "MediaPlayer" ]
-right = [ ["SystemInfo"], ["KeyboardLayout"], ["Clock"], ["Privacy"], ["Settings" ] ]
+right = [ ["SystemInfo"], ["KeyboardLayout"], ["Tempo"], ["Privacy"], ["Settings" ] ]
 
 [keyboard_layout.labels]
 "English (US)" = "🇺🇸"
 "Arabic" = "🇩🇿"
 
-[clock]
-# format = "%A %d %B %Y | %k:%M:%S"
-# format = "%A %d %B %Y | %T"
-format = "%A %d %B %Y | %X"
+[tempo]
+clock_format = "%A %d %B %Y | %X"
+weather_location = { Coordinates = [34.4051075, 4.9982626] }  # Sidi Khaled City
 
 [appearance]
 # font_name = "Iosevka Nerd Font"
