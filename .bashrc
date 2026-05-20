@@ -19,7 +19,7 @@ set -o vi
 # PATH
 # -----------------------------------------------------
 
-PATH=$PATH:/home/ezzobir/efs/repos/github.com/dotfiles/scripts/rofi
+PATH=$PATH:/home/ezzobir/efs/repos/github.com/configs/scripts/rofi
 
 # -----------------------------------------------------
 # FAVORITE EDITOR
@@ -2041,11 +2041,13 @@ eval "$(starship init bash)"
 # -----------------------------------------------------
 # Zoxide
 # -----------------------------------------------------
+
 eval "$(zoxide init bash)"
 
 # -----------------------------------------------------
 # FZF
 # -----------------------------------------------------
+
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
 

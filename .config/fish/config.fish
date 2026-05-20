@@ -6,13 +6,13 @@ set -Ux COLORTERM truecolor
 
 # BEGIN ENVIRONMENT VARIABLES
 # -----------------------------------------------------
-set -x QT_QPA_PLATFORMTHEME qt5ct
+set -x QT_QPA_PLATFORMTHEME qt6ct
 # -----------------------------------------------------
 # END ENVIRONMENT VARIABLES
 
 # BEGIN PATH
 # -----------------------------------------------------
-set -U fish_user_paths /home/ezzobir/efs/repos/github.com/dotfiles/scripts/rofi $fish_user_paths
+set -U fish_user_paths /home/ezzobir/efs/repos/github.com/configs/scripts/rofi $fish_user_paths
 # -----------------------------------------------------
 # END PATH
 
