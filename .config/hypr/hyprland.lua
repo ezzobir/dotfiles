@@ -345,11 +345,18 @@ hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
 
 -- Scrolling Layout
+
 hl.bind(mainMod .. " + period", hl.dsp.layout("move +col"))
 hl.bind(mainMod .. " + comma", hl.dsp.layout("move -col"))
 hl.bind(secondMod .. " + period", hl.dsp.layout("swapcol l"))
 hl.bind(secondMod .. " + comma", hl.dsp.layout("swapcol r"))
-hl.bind(secondMod .. " + F", hl.dsp.layout("colresize 1.0"))
+
+hl.bind(mainMod .. " + equal", hl.dsp.layout("colresize +0.1"))
+hl.bind(mainMod .. " + minus", hl.dsp.layout("colresize -0.1"))
+hl.bind(secondMod .. " + equal", hl.dsp.layout("colresize +conf"))
+hl.bind(secondMod .. " + minus", hl.dsp.layout("colresize -conf"))
+
+-- hl.bind(secondMod .. " + F", hl.dsp.layout("colresize 1.0"))
 
 
 --------------------------------
