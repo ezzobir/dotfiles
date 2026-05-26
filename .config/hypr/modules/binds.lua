@@ -4,69 +4,71 @@
 
 -- Set programs that you use
 local terminal    = "kitty"
-local fileManager = "kitty -e yazi"
+local file_manager = "kitty -e yazi"
 local menu        = "hyprlauncher"
 local browser     = "firefox"
+local editor     = "emacs"
 
 ---------------------
 ---- KEYBINDINGS ----
 ---------------------
 
-local mainMod = "SUPER" -- Sets "Windows" key as main modifier
-local secondMod = "SUPER + SHIFT"
+local main_mod = "SUPER" -- Sets "Windows" key as main modifier
+local second_mod = "SUPER + SHIFT"
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
-hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal))
-local closeWindowBind = hl.bind(secondMod .. " + Q", hl.dsp.window.close())
+hl.bind(main_mod .. " + Return", hl.dsp.exec_cmd(terminal))
+local closeWindowBind = hl.bind(second_mod .. " + Q", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
-hl.bind(secondMod .. " + M", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
-hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
-hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
-hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(menu))
-hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("/home/ezzobir/efs/repos/github.com/woomer/target/debug/woomer"))
--- hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
-hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("gradia --screenshot=FULL --delay=1500"))
--- hl.bind(mainMod .. " + Y", hl.dsp.exec_cmd("waybar || waybar &"))
-hl.bind(mainMod .. " + Y", hl.dsp.exec_cmd("pkill ashell || ashell &"))
-hl.bind(mainMod .. " + X", hl.dsp.exec_cmd("wlogout"))
-hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("hyprpicker -a"))
-hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("task-waybar"))
--- hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
+hl.bind(second_mod .. " + M", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
+hl.bind(main_mod .. " + E", hl.dsp.exec_cmd(file_manager))
+hl.bind(main_mod .. " + B", hl.dsp.exec_cmd(browser))
+hl.bind(main_mod .. " + D", hl.dsp.exec_cmd(menu))
+hl.bind(main_mod .. " + M", hl.dsp.exec_cmd(editor))
+hl.bind(main_mod .. " + W", hl.dsp.exec_cmd("/home/ezzobir/efs/repos/github.com/woomer/target/debug/woomer"))
+-- hl.bind(main_mod .. " + P", hl.dsp.window.pseudo())
+hl.bind(main_mod .. " + P", hl.dsp.exec_cmd("gradia --screenshot=FULL --delay=1500"))
+-- hl.bind(main_mod .. " + Y", hl.dsp.exec_cmd("waybar || waybar &"))
+hl.bind(main_mod .. " + Y", hl.dsp.exec_cmd("pkill ashell || ashell &"))
+hl.bind(main_mod .. " + X", hl.dsp.exec_cmd("wlogout"))
+hl.bind(second_mod .. " + C", hl.dsp.exec_cmd("hyprpicker -a"))
+hl.bind(main_mod .. " + N", hl.dsp.exec_cmd("task-waybar"))
+-- hl.bind(main_mod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
 
--- Move focus with mainMod + hjkl keys
-hl.bind(mainMod .. " + h",  hl.dsp.focus({ direction = "left" }))
-hl.bind(mainMod .. " + l", hl.dsp.focus({ direction = "right" }))
-hl.bind(mainMod .. " + k",    hl.dsp.focus({ direction = "up" }))
-hl.bind(mainMod .. " + j",  hl.dsp.focus({ direction = "down" }))
+-- Move focus with main_mod + hjkl keys
+hl.bind(main_mod .. " + h",  hl.dsp.focus({ direction = "left" }))
+hl.bind(main_mod .. " + l", hl.dsp.focus({ direction = "right" }))
+hl.bind(main_mod .. " + k",    hl.dsp.focus({ direction = "up" }))
+hl.bind(main_mod .. " + j",  hl.dsp.focus({ direction = "down" }))
 
--- Move active window with secondMod + hjkl keys
-hl.bind(secondMod .. " + h",  hl.dsp.window.move({ direction = "left" }))
-hl.bind(secondMod .. " + l", hl.dsp.window.move({ direction = "right" }))
-hl.bind(secondMod .. " + k",    hl.dsp.window.move({ direction = "up" }))
-hl.bind(secondMod .. " + j",  hl.dsp.window.move({ direction = "down" }))
+-- Move active window with second_mod + hjkl keys
+hl.bind(second_mod .. " + h",  hl.dsp.window.move({ direction = "left" }))
+hl.bind(second_mod .. " + l", hl.dsp.window.move({ direction = "right" }))
+hl.bind(second_mod .. " + k",    hl.dsp.window.move({ direction = "up" }))
+hl.bind(second_mod .. " + j",  hl.dsp.window.move({ direction = "down" }))
 
-hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
+hl.bind(main_mod .. " + V", hl.dsp.window.float({ action = "toggle" }))
+hl.bind(main_mod .. " + F", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
 
--- Switch workspaces with mainMod + [0-9]
--- Move active window to a workspace with secondMod + [0-9]
+-- Switch workspaces with main_mod + [0-9]
+-- Move active window to a workspace with second_mod + [0-9]
 for i = 1, 10 do
     local key = i % 10 -- 10 maps to key 0
-    hl.bind(mainMod .. " + " .. key,             hl.dsp.focus({ workspace = i}))
-    hl.bind(secondMod .. " + " .. key,     hl.dsp.window.move({ workspace = i }))
+    hl.bind(main_mod .. " + " .. key,             hl.dsp.focus({ workspace = i}))
+    hl.bind(second_mod .. " + " .. key,     hl.dsp.window.move({ workspace = i }))
 end
 
 -- Example special workspace (scratchpad)
-hl.bind(mainMod .. " + S",         hl.dsp.workspace.toggle_special("magic"))
-hl.bind(secondMod .. " + S", hl.dsp.window.move({ workspace = "special:magic" }))
+hl.bind(main_mod .. " + S",         hl.dsp.workspace.toggle_special("magic"))
+hl.bind(second_mod .. " + S", hl.dsp.window.move({ workspace = "special:magic" }))
 
--- Scroll through existing workspaces with mainMod + scroll
-hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
-hl.bind(mainMod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
+-- Scroll through existing workspaces with main_mod + scroll
+hl.bind(main_mod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
+hl.bind(main_mod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
 
--- Move/resize windows with mainMod + LMB/RMB and dragging
-hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
-hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
+-- Move/resize windows with main_mod + LMB/RMB and dragging
+hl.bind(main_mod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
+hl.bind(main_mod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
 -- Laptop multimedia keys for volume and LCD brightness
 hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true, repeating = true })
@@ -84,13 +86,15 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = tr
 
 -- Scrolling Layout
 
-hl.bind(mainMod .. " + period", hl.dsp.layout("move +col"))
-hl.bind(mainMod .. " + comma", hl.dsp.layout("move -col"))
-hl.bind(secondMod .. " + period", hl.dsp.layout("swapcol l"))
-hl.bind(secondMod .. " + comma", hl.dsp.layout("swapcol r"))
+hl.bind(main_mod .. " + period", hl.dsp.layout("move +col"))
+hl.bind(main_mod .. " + comma", hl.dsp.layout("move -col"))
+hl.bind(second_mod .. " + period", hl.dsp.layout("swapcol l"))
+hl.bind(second_mod .. " + comma", hl.dsp.layout("swapcol r"))
 
-hl.bind(mainMod .. " + R", hl.dsp.layout("colresize -0.1"))
-hl.bind(secondMod .. " + R", hl.dsp.layout("colresize +0.1"))
--- hl.bind(mainMod .. " + equal", hl.dsp.layout("colresize +conf"))
--- hl.bind(mainMod .. " + minus", hl.dsp.layout("colresize -conf"))
-hl.bind(secondMod .. " + F", hl.dsp.layout("colresize 1.0"))
+-- hl.bind(main_mod .. " + C", hl.dsp.exec_cmd("hyprpicker -a"))
+
+hl.bind(main_mod .. " + R", hl.dsp.layout("colresize -0.1"))
+hl.bind(second_mod .. " + R", hl.dsp.layout("colresize +0.1"))
+hl.bind(main_mod .. " + equal", hl.dsp.layout("colresize +conf"))
+hl.bind(main_mod .. " + minus", hl.dsp.layout("colresize -conf"))
+hl.bind(second_mod .. " + F", hl.dsp.layout("colresize 1.0"))
