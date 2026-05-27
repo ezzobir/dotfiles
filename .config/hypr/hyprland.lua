@@ -125,7 +125,7 @@ hl.window_rule({
 
 hl.window_rule({
     name  = "telegram-on-ws3",
-    match = { class = "^(telegram-desktop)$" },
+    match = { class = "^(org.telegram.desktop)$" },
     -- workspace = "1 silent"
     workspace = "3"
 })
