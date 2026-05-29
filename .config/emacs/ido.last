@@ -12,8 +12,8 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/ezzobir/dotfiles/.config/hypr/"
  "/home/ezzobir/dotfiles/.config/hypr/modules/"
+ "/home/ezzobir/dotfiles/.config/hypr/"
  "/home/ezzobir/"
  "/home/ezzobir/Programming/typst/"
  "/home/ezzobir/Programming/typst/october/"
@@ -22,9 +22,10 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "autostart.lua"
+ "binds.lua"
  "hyprland.lua"
  "layout.lua"
- "binds.lua"
  "text.txt"
  "main.typ"
  "t.typ"
@@ -32,9 +33,9 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/dotfiles/.config/hypr/" (27157 25534 955656 405000) "hyprland.lua" "modules/" "hyprland.conf.old" ".luarc.json" "hypridle.conf" "hyprlock.conf" "../" "./")
+ ("/home/ezzobir/dotfiles/.config/hypr/modules/" (27159 23070 831534 998000) "binds.lua" "layout.lua" "decorations.lua" "perm.lua" "env.lua" "autostart.lua" "monitors.lua" "../" "./")
 
- ("/home/ezzobir/dotfiles/.config/hypr/modules/" (27157 25330 537227 320000) "binds.lua" "layout.lua" "decorations.lua" "perm.lua" "env.lua" "autostart.lua" "monitors.lua" "../" "./")
+ ("/home/ezzobir/dotfiles/.config/hypr/" (27157 25534 955656 405000) "hyprland.lua" "modules/" "hyprland.conf.old" ".luarc.json" "hypridle.conf" "hyprlock.conf" "../" "./")
 
  ("/home/ezzobir/dotfiles/.config/" (27150 9227 787333 16000) "dunst/" "fontconfig/" "kitty/" "helix/" "htop/" "mpd/" "sioyek/" "swayimg/" "waybar/" "zathura/" "zellij/" "mpv/" "yazi/" "hypr/" "ashell/" "fish/" "emacs/" "../" "./")
 

@@ -200,16 +200,16 @@ there's a region, all lines that region covers will be duplicated."
             (local-set-key (kbd "C-c C-c") 'my-compile-and-run-cpp)))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; hyprlang
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(add-to-list 'treesit-language-source-alist
-        '(hyprlang "https://github.com/tree-sitter-grammars/tree-sitter-hyprlang"))
+;; ;; hyprlang
+;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (add-to-list 'treesit-language-source-alist
+;;         '(hyprlang "https://github.com/tree-sitter-grammars/tree-sitter-hyprlang"))
 
-(use-package hyprlang-ts-mode
-  :ensure t
-  :custom
-  (hyprlang-ts-mode-indent-offset 4))
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (use-package hyprlang-ts-mode
+;;   :ensure t
+;;   :custom
+;;   (hyprlang-ts-mode-indent-offset 4))
+;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; org mode
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

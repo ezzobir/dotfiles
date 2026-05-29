@@ -48,7 +48,7 @@ hl.bind(second_mod .. " + k",    hl.dsp.window.move({ direction = "up" }))
 hl.bind(second_mod .. " + j",  hl.dsp.window.move({ direction = "down" }))
 
 hl.bind(main_mod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(second_mod .. " + F", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
+hl.bind(main_mod .. " + F", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
 
 -- Switch workspaces with main_mod + [0-9]
 -- Move active window to a workspace with second_mod + [0-9]
@@ -97,4 +97,4 @@ hl.bind(main_mod .. " + R", hl.dsp.layout("colresize -0.1"))
 hl.bind(second_mod .. " + R", hl.dsp.layout("colresize +0.1"))
 hl.bind(main_mod .. " + equal", hl.dsp.layout("colresize +conf"))
 hl.bind(main_mod .. " + minus", hl.dsp.layout("colresize -conf"))
-hl.bind(main_mod .. " + F", hl.dsp.layout("colresize 1.0"))
+hl.bind(main_mod .. " + C", hl.dsp.layout("colresize 1.0"))
