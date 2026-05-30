@@ -15,6 +15,7 @@ local editor     = "emacs"
 
 local main_mod = "SUPER" -- Sets "Windows" key as main modifier
 local second_mod = "SUPER + SHIFT"
+local third_mod = "SUPER + CONTROL"
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(main_mod .. " + Return", hl.dsp.exec_cmd(terminal))
@@ -76,13 +77,16 @@ hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO
 hl.bind("XF86AudioMute",        hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"),     { locked = true, repeating = true })
 hl.bind("XF86AudioMicMute",     hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"),   { locked = true, repeating = true })
 -- mine
--- hl.bind(main_mod .. " + BackSpace", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"), { locked = true })
+hl.bind(main_mod .. " + BackSpace", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"), { locked = true })
 hl.bind(main_mod .. " + minus", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"), { locked = true })
 hl.bind(main_mod .. " + equal", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true })
 
 -- Laptop multimedia keys for LCD brightness
 hl.bind("XF86MonBrightnessUp",  hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%+"),                  { locked = true, repeating = true })
 hl.bind("XF86MonBrightnessDown",hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%-"),                  { locked = true, repeating = true })
+-- mine
+hl.bind(third_mod .. "+ equal",  hl.dsp.exec_cmd("brightnessctl set +1%"),                         { locked = true, repeating = true })
+hl.bind(third_mod .. "+ minus",hl.dsp.exec_cmd("brightnessctl set 1%-"),                           { locked = true, repeating = true })
 
 -- Requires playerctl
 hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),       { locked = true })
@@ -90,8 +94,9 @@ hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
 -- mine
--- hl.bind("Pause",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
-hl.bind(main_mod .. " + BackSpace",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
+hl.bind(third_mod .. " + BackSpace",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
+hl.bind(third_mod .. " + N",  hl.dsp.exec_cmd("playerctl next"),               { locked = true })
+hl.bind(third_mod .. " + P",  hl.dsp.exec_cmd("playerctl previous"),           { locked = true })
 
 -- Scrolling Layout
 
