@@ -1,3 +1,9 @@
+# BEGIN DISABLE GREETING MESSAGE
+# -----------------------------------------------------
+set -U fish_greeting ""
+# -----------------------------------------------------
+# END DISABLE GREETING MESSAGE
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
@@ -15,12 +21,6 @@ set -x QT_QPA_PLATFORMTHEME qt6ct
 set -U fish_user_paths /home/ezzobir/efs/repos/github.com/configs/scripts/rofi $fish_user_paths
 # -----------------------------------------------------
 # END PATH
-
-# BEGIN DISABLE GREETING MESSAGE
-# -----------------------------------------------------
-set -U fish_greeting ""
-# -----------------------------------------------------
-# END DISABLE GREETING MESSAGE
 
 # BEGIN VI MODE
 # -----------------------------------------------------

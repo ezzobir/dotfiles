@@ -3,7 +3,7 @@
 ;; ----- ido-last-directory-list -----
 (
  ("/home/ezzobir/dotfiles/.config/hypr/" . "modules/")
- ("/home/ezzobir/dotfiles/.config/" . "hypr/")
+ ("/home/ezzobir/dotfiles/.config/" . "fish/")
  ("/home/" . "ezzobir/")
  ("/home/ezzobir/Programming/" . "typst/")
  ("/home/ezzobir/.config/hypr/" . "modules/")
@@ -12,8 +12,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/ezzobir/dotfiles/.config/hypr/"
+ "/home/ezzobir/dotfiles/.config/fish/"
+ "/home/ezzobir/.config/"
  "/home/ezzobir/dotfiles/.config/hypr/modules/"
+ "/home/ezzobir/dotfiles/.config/hypr/"
  "/home/ezzobir/"
  "/home/ezzobir/Programming/typst/"
  "/home/ezzobir/Programming/typst/october/"
@@ -22,27 +24,35 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "config.fish"
+ "dolphinrc"
+ "decorations.lua"
+ "windowrules.lua"
  "hyprland.conf.old"
  "binds.lua"
  "hyprland.lua"
- "windowrules.lua"
  "input.lua"
  "misc.lua"
  "layout.lua"
- "autostart.lua"
- "text.txt"
- "main.typ"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/dotfiles/.config/hypr/modules/" (27161 27449 845576 649000) "windowrules.lua" "input.lua" "misc.lua" "binds.lua" "layout.lua" "decorations.lua" "perm.lua" "env.lua" "autostart.lua" "monitors.lua" "../" "./")
+ ("/home/ezzobir/.config/hypr/modules/" (27162 36262 81350 331000) "windowrules.lua" "input.lua" "misc.lua" "binds.lua" "layout.lua" "decorations.lua" "perm.lua" "env.lua" "autostart.lua" "monitors.lua" "../" "./")
+
+ ("/home/ezzobir/Programming/typst/" (27162 30310 880292 105000) "t.typ" "t.typ~" "t.pdf" "../" "./")
+
+ ("/home/ezzobir/dotfiles/.config/fish/" (27162 37292 246913 889000) "fish_variables" "config.fish" "functions/" "conf.d/" "completions/" "../" "./")
+
+ ("/home/ezzobir/dotfiles/.config/hypr/modules/" (27162 36262 81350 331000) "windowrules.lua" "input.lua" "misc.lua" "binds.lua" "layout.lua" "decorations.lua" "perm.lua" "env.lua" "autostart.lua" "monitors.lua" "../" "./")
+
+ ("/home/ezzobir/dotfiles/.config/emacs/" (27162 36627 308521 30000) "ido.last" "auto-save-list/" "emacs-custom.el" "transient/" "eln-cache/" "elpa/" "init.el" "../" "./")
+
+ ("/home/ezzobir/.config/" (27161 65475 469428 459000) "QtProject.conf" "btop/" "qt5ct/" "zellij/" "zathura/" "yazi/" "waybar/" "swayimg/" "sioyek/" "mpv/" "mpd/" "hypr/" "htop/" "helix/" "fontconfig/" "fish/" "emacs/" "dunst/" "ashell/" "kitty/" "qt6ct/" "pavucontrol.ini" "onlyoffice/" "nushell/" "rio/" "ghostty/" "easyeffectsrc" "easyeffects/" "cava/" "qalculate/" "Katvan/" "xournalpp/" "mimeapps.list" "chromium/" "zed/" "alacritty/" "geogebra/" "libreoffice/" "GIMP/" "BraveSoftware/" "vokoscreenNG/" "gtk-4.0/" "xsettingsd/" "nwg-look/" "nwg-displays/" "obs-studio/" "waypaper/" "wlogout/" "dolphinrc" "session/" "kde.org/" "rofi/" "gtk-3.0/" "pulse/" "imv/" "starship.toml" "dconf/" "../" "./")
 
  ("/home/ezzobir/" (27162 29812 111011 396000) "notes/" "f.typ" "test.pdf" "test.typ" ".gitconfig" ".bashrc" ".bash_profile" "dotfiles/" "haj_keddour.typ" "apps/" ".viminfo" "github/" ".java/" "Programming/" ".python_history" "Videos/" ".pki/" "Documents/" ".mupdf.history" ".gtkrc-2.0" "Pictures/" ".var/" ".gnupg/" ".cargo/" ".rustup/" ".ssh/" "efs/" "Downloads/" ".mozilla/" ".bash_history" ".local/" ".cache/" ".config/" ".bash_logout" "../" "./")
 
  ("/home/ezzobir/dotfiles/.config/hypr/" (27161 13452 629419 97000) "hyprland.lua" "modules/" "hyprland.conf.old" ".luarc.json" "hypridle.conf" "hyprlock.conf" "../" "./")
-
- ("/home/ezzobir/.config/hypr/modules/" (27161 8583 883330 42000) "input.lua" "misc.lua" "binds.lua" "layout.lua" "decorations.lua" "perm.lua" "env.lua" "autostart.lua" "monitors.lua" "../" "./")
 
  ("/home/ezzobir/dotfiles/.config/" (27150 9227 787333 16000) "dunst/" "fontconfig/" "kitty/" "helix/" "htop/" "mpd/" "sioyek/" "swayimg/" "waybar/" "zathura/" "zellij/" "mpv/" "yazi/" "hypr/" "ashell/" "fish/" "emacs/" "../" "./")
 
@@ -50,15 +60,11 @@
 
  ("/home/" (26817 47380 155749 713000) "ezzobir/" "../" "./")
 
- ("/home/ezzobir/Programming/typst/" (27157 16932 540158 218000) "t.typ" "t.pdf" "../" "./")
-
  ("/home/ezzobir/Programming/typst/october/" (27157 14223 181754 377000) "main.typ" "../" "./")
 
  ("/home/ezzobir/Programming/" (27019 12363 486948 413000) "typst/" "../" "./")
 
  ("/home/ezzobir/.config/hypr/" (27154 47915 48293 720000) "hyprland.lua" "modules/" "hyprland.conf.old" ".luarc.json" "hypridle.conf" "hyprlock.conf" "../" "./")
-
- ("/home/ezzobir/.config/" (27154 44397 350375 328000) "qt5ct/" "zellij/" "zathura/" "yazi/" "waybar/" "swayimg/" "sioyek/" "mpv/" "mpd/" "hypr/" "htop/" "helix/" "fontconfig/" "fish/" "emacs/" "dunst/" "ashell/" "QtProject.conf" "kitty/" "qt6ct/" "pavucontrol.ini" "onlyoffice/" "nushell/" "rio/" "ghostty/" "easyeffectsrc" "easyeffects/" "cava/" "qalculate/" "Katvan/" "xournalpp/" "mimeapps.list" "chromium/" "zed/" "alacritty/" "geogebra/" "libreoffice/" "GIMP/" "BraveSoftware/" "vokoscreenNG/" "gtk-4.0/" "xsettingsd/" "nwg-look/" "nwg-displays/" "obs-studio/" "waypaper/" "wlogout/" "dolphinrc" "session/" "kde.org/" "rofi/" "gtk-3.0/" "pulse/" "imv/" "starship.toml" "dconf/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
