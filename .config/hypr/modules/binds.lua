@@ -70,11 +70,17 @@ hl.bind(main_mod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
 hl.bind(main_mod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
 hl.bind(main_mod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
--- Laptop multimedia keys for volume and LCD brightness
+-- Laptop multimedia keys for volume
 hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true, repeating = true })
 hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"),      { locked = true, repeating = true })
 hl.bind("XF86AudioMute",        hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"),     { locked = true, repeating = true })
 hl.bind("XF86AudioMicMute",     hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"),   { locked = true, repeating = true })
+-- mine
+-- hl.bind(main_mod .. " + BackSpace", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"), { locked = true })
+hl.bind(main_mod .. " + minus", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"), { locked = true })
+hl.bind(main_mod .. " + equal", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true })
+
+-- Laptop multimedia keys for LCD brightness
 hl.bind("XF86MonBrightnessUp",  hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%+"),                  { locked = true, repeating = true })
 hl.bind("XF86MonBrightnessDown",hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%-"),                  { locked = true, repeating = true })
 
@@ -83,6 +89,9 @@ hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),       { locked = tr
 hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
+-- mine
+-- hl.bind("Pause",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
+hl.bind(main_mod .. " + BackSpace",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 
 -- Scrolling Layout
 
@@ -95,6 +104,6 @@ hl.bind(second_mod .. " + comma", hl.dsp.layout("swapcol r"))
 
 hl.bind(main_mod .. " + R", hl.dsp.layout("colresize -0.1"))
 hl.bind(second_mod .. " + R", hl.dsp.layout("colresize +0.1"))
-hl.bind(main_mod .. " + equal", hl.dsp.layout("colresize +conf"))
-hl.bind(main_mod .. " + minus", hl.dsp.layout("colresize -conf"))
+-- hl.bind(main_mod .. " + equal", hl.dsp.layout("colresize +conf"))
+-- hl.bind(main_mod .. " + minus", hl.dsp.layout("colresize -conf"))
 hl.bind(main_mod .. " + C", hl.dsp.layout("colresize 1.0"))
