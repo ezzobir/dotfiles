@@ -22,9 +22,15 @@ set -U fish_user_paths /home/ezzobir/efs/repos/github.com/configs/scripts/rofi $
 # -----------------------------------------------------
 # END PATH
 
-# BEGIN VI MODE
+# # BEGIN VI MODE
+# # -----------------------------------------------------
+# fish_vi_key_bindings
+# # -----------------------------------------------------
+# # END VI MODE
+# 
+# BEGIN HELIX MODE
 # -----------------------------------------------------
-fish_vi_key_bindings
+fish_helix_key_bindings
 # -----------------------------------------------------
 # END VI MODE
 
