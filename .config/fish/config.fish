@@ -22,6 +22,12 @@ set -U fish_user_paths /home/ezzobir/efs/repos/github.com/configs/scripts/rofi $
 # -----------------------------------------------------
 # END PATH
 
+# BEGIN EMACS MODE
+# -----------------------------------------------------
+fish_default_key_bindings
+# -----------------------------------------------------
+# END EMACS MODE
+
 # # BEGIN VI MODE
 # # -----------------------------------------------------
 # fish_vi_key_bindings
@@ -32,7 +38,7 @@ set -U fish_user_paths /home/ezzobir/efs/repos/github.com/configs/scripts/rofi $
 # -----------------------------------------------------
 fish_helix_key_bindings
 # -----------------------------------------------------
-# END VI MODE
+# END HELIX MODE
 
 # BEGIN DEFAULT EDITOR
 # -----------------------------------------------------
