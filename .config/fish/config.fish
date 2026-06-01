@@ -27,31 +27,12 @@ set -U fish_user_paths /home/ezzobir/efs/repos/github.com/configs/scripts/rofi $
 # fish_vi_key_bindings
 # # -----------------------------------------------------
 # # END VI MODE
-# 
+
 # BEGIN HELIX MODE
 # -----------------------------------------------------
 fish_helix_key_bindings
 # -----------------------------------------------------
 # END VI MODE
-
-# BEGIN HANDLE THE CLIPBOARD PASTE
-# -----------------------------------------------------
-function paste_from_clipboard
-    wl-paste | read -l clipboard_content
-    commandline -i $clipboard_content
-end
-bind \cp paste_from_clipboard
-# -----------------------------------------------------
-# END HANDLE THE CLIPBOARD PASTE
-
-# BEGIN PACMAN
-# -----------------------------------------------------
-alias u='doas pacman -Syu'
-alias i='doas pacman -S'
-alias q='doas pacman -Ss'
-alias r='doas pacman -Rns'
-# -----------------------------------------------------
-# END PACMAN
 
 # BEGIN DEFAULT EDITOR
 # -----------------------------------------------------
@@ -61,6 +42,15 @@ set -Ux EDITOR helix
 set -Ux VISUAL helix
 # -----------------------------------------------------
 # END DEFAULT EDITOR
+
+# BEGIN PACMAN
+# -----------------------------------------------------
+alias u='doas pacman -Syu'
+alias i='doas pacman -S'
+alias q='doas pacman -Ss'
+alias r='doas pacman -Rns'
+# -----------------------------------------------------
+# END PACMAN
 
 # BEGIN PARU
 # -----------------------------------------------------
@@ -79,18 +69,6 @@ alias ll='ls -Fl'
 alias la='ls -FAl'
 # -----------------------------------------------------
 # END TERMINAL
-
-# BEGIN VIM
-# -----------------------------------------------------
-alias vi='vim'
-# -----------------------------------------------------
-# END VIM
-
-# BEGIN NEOVIM
-# -----------------------------------------------------
-alias v='nvim'
-# -----------------------------------------------------
-# END NEOVIM
 
 # BEGIN EMACS
 # -----------------------------------------------------
@@ -115,18 +93,9 @@ alias p='python'
 alias confb='helix ~/.bashrc'
 alias conff='helix ~/.config/fish/config.fish'
 alias confk='helix ~/.config/kitty/kitty.conf'
-alias confh='helix ~/.config/hypr/hyprland.conf'
-alias confi3='helix ~/.config/i3/config'
+alias confh='helix ~/.config/hypr/hyprland.lua'
 # -----------------------------------------------------
 # END EDIT CONFIG FILES
-
-# BEGIN FLATPAK APPS
-# -----------------------------------------------------
-# alias sioyek='flatpak run com.github.ahrm.sioyek'
-# alias lyx='flatpak run org.lyx.LyX'
-alias spotify='flatpak run com.spotify.Client'
-# -----------------------------------------------------
-# END FLATPAK APPS
 
 # BEGIN PDF
 # -----------------------------------------------------
@@ -531,3 +500,44 @@ zoxide init fish | source
 fzf --fish | source
 # -----------------------------------------------------
 # END FZF
+
+# BEGIN THEME
+# -----------------------------------------------------
+# fish-modus-vivendi color theme
+
+set -l foreground ffffff # fg-main
+set -l comment a8a8a8 # fg-alt
+set -l selection 34cfff # blue-active
+# *-intense color
+set -l red fe6060
+set -l orange fba849
+set -l green 4fe42f
+set -l yellow f0dd60
+set -l blue 4fafff
+set -l magenta ff62d4
+set -l purple 9f80ff
+set -l cyan 3fdfd0
+
+# Syntax Highlighting Colors
+set -g fish_color_normal $foreground
+set -g fish_color_command $purple
+set -g fish_color_keyword $magenta
+set -g fish_color_quote $blue
+set -g fish_color_redirection $foreground
+set -g fish_color_end $orange
+set -g fish_color_error $red
+set -g fish_color_param $cyan
+set -g fish_color_comment $comment
+set -g fish_color_selection --background=$selection
+set -g fish_color_search_match --background=$selection
+set -g fish_color_operator $green
+set -g fish_color_escape $magenta
+set -g fish_color_autosuggestion $comment
+
+# Completion Pager Colors
+set -g fish_pager_color_progress $comment
+set -g fish_pager_color_prefix $cyan
+set -g fish_pager_color_completion $foreground
+set -g fish_pager_color_description $comment
+# -----------------------------------------------------
+# BEGIN THEME
