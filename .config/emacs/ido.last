@@ -38,13 +38,13 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/ezzobir/" (27165 10939 550192 745000) ".bash_history" "dotfiles/" ".gitconfig" ".bashrc" ".bash_profile" ".viminfo" ".java/" "Programming/" ".python_history" "Videos/" ".pki/" "Documents/" ".mupdf.history" ".gtkrc-2.0" "Pictures/" ".var/" ".gnupg/" ".cargo/" ".rustup/" ".ssh/" "efs/" "Downloads/" ".mozilla/" ".local/" ".cache/" ".config/" "../" "./")
+
  ("/home/ezzobir/.config/hypr/modules/" (27163 10692 142207 539000) "windowrules.lua" "perm.lua" "monitors.lua" "misc.lua" "layout.lua" "input.lua" "env.lua" "decorations.lua" "binds.lua" "autostart.lua" "../" "./")
 
  ("/home/ezzobir/.config/hypr/" (27163 10692 141833 788000) "modules/" "hyprlock.conf" "hyprland.lua" "hyprland.conf.old" "hypridle.conf" ".luarc.json" "../" "./")
 
  ("/home/ezzobir/.config/" (27163 10546 624389 495000) "zellij/" "zathura/" "yazi/" "waybar/" "swayimg/" "starship.toml" "sioyek/" "mpv/" "mpd/" "hypr/" "htop/" "helix/" "fontconfig/" "fish/" "emacs/" "dunst/" "ashell/" "QtProject.conf" "btop/" "qt5ct/" "kitty/" "qt6ct/" "pavucontrol.ini" "onlyoffice/" "nushell/" "rio/" "ghostty/" "easyeffectsrc" "easyeffects/" "cava/" "qalculate/" "Katvan/" "xournalpp/" "mimeapps.list" "chromium/" "zed/" "alacritty/" "geogebra/" "libreoffice/" "GIMP/" "BraveSoftware/" "vokoscreenNG/" "gtk-4.0/" "xsettingsd/" "nwg-look/" "nwg-displays/" "obs-studio/" "waypaper/" "wlogout/" "dolphinrc" "session/" "kde.org/" "rofi/" "gtk-3.0/" "pulse/" "imv/" "dconf/" "../" "./")
-
- ("/home/ezzobir/" (27163 58847 306166 172000) "dotfiles/" ".gitconfig" ".bashrc" ".bash_profile" ".viminfo" ".java/" "Programming/" ".python_history" "Videos/" ".pki/" "Documents/" ".mupdf.history" ".gtkrc-2.0" "Pictures/" ".var/" ".gnupg/" ".cargo/" ".rustup/" ".ssh/" "efs/" "Downloads/" ".mozilla/" ".local/" ".cache/" ".config/" "../" "./")
 
  ("/home/ezzobir/Programming/typst/" (27162 30310 880292 105000) "t.typ" "t.typ~" "t.pdf" "../" "./")
 
