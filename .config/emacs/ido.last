@@ -38,7 +38,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/" (27165 10939 550192 745000) ".bash_history" "dotfiles/" ".gitconfig" ".bashrc" ".bash_profile" ".viminfo" ".java/" "Programming/" ".python_history" "Videos/" ".pki/" "Documents/" ".mupdf.history" ".gtkrc-2.0" "Pictures/" ".var/" ".gnupg/" ".cargo/" ".rustup/" ".ssh/" "efs/" "Downloads/" ".mozilla/" ".local/" ".cache/" ".config/" "../" "./")
+ ("/home/ezzobir/" (27166 36610 602054 41000) ".bash_history" "dotfiles/" ".gitconfig" ".bashrc" ".bash_profile" ".viminfo" ".java/" "Programming/" ".python_history" "Videos/" ".pki/" "Documents/" ".mupdf.history" ".gtkrc-2.0" "Pictures/" ".var/" ".gnupg/" ".cargo/" ".rustup/" ".ssh/" "efs/" "Downloads/" ".mozilla/" ".local/" ".cache/" ".config/" "../" "./")
 
  ("/home/ezzobir/.config/hypr/modules/" (27163 10692 142207 539000) "windowrules.lua" "perm.lua" "monitors.lua" "misc.lua" "layout.lua" "input.lua" "env.lua" "decorations.lua" "binds.lua" "autostart.lua" "../" "./")
 
