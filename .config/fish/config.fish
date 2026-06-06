@@ -57,8 +57,8 @@ end
 
 # BEGIN DEFAULT EDITOR
 # -----------------------------------------------------
-# set -Ux EDITOR "emacs -nw"
-# set -Ux VISUAL "emacs -nw"
+# set -Ux EDITOR emacs -nw
+# set -Ux VISUAL emacs -nw
 # set -Ux EDITOR emacs
 # set -Ux VISUAL emacs
 set -Ux EDITOR helix
