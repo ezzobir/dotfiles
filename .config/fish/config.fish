@@ -502,6 +502,8 @@ function zpipe
     end
 end
 complete -c zpipe -f -a "(__fish_complete_aliases)" -d Zpipes
+
+alias zj='zellij'
 # -----------------------------------------------------
 # END ZELLIJ
 
