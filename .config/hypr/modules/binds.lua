@@ -104,8 +104,8 @@ hl.bind(third_mod .. " + P",  hl.dsp.exec_cmd("playerctl previous"),           {
 
 hl.bind(main_mod .. " + period", hl.dsp.layout("move +col"))
 hl.bind(main_mod .. " + comma", hl.dsp.layout("move -col"))
-hl.bind(second_mod .. " + period", hl.dsp.layout("swapcol l"))
-hl.bind(second_mod .. " + comma", hl.dsp.layout("swapcol r"))
+hl.bind(second_mod .. " + period", hl.dsp.layout("swapcol r"))
+hl.bind(second_mod .. " + comma", hl.dsp.layout("swapcol l"))
 
 -- hl.bind(main_mod .. " + C", hl.dsp.layout("promote"))
 
