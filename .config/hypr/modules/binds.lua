@@ -82,6 +82,7 @@ hl.bind(main_mod .. " + minus", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO
 hl.bind(main_mod .. " + equal", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true })
 hl.bind(third_mod .. " + 0", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 100%"), { locked = true })
 hl.bind(third_mod .. " + 9", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 50%"), { locked = true })
+hl.bind(third_mod .. " + 8", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 40%"), { locked = true })
 
 -- Laptop multimedia keys for LCD brightness
 hl.bind("XF86MonBrightnessUp",  hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%+"),                  { locked = true, repeating = true })
