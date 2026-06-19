@@ -1,0 +1,40 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/ezzobir/efs/" . "programming/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ezzobir/efs/programming/latex/"
+ "/home/ezzobir/"
+ "~/efs/programming/typst/"
+ "/home/ezzobir/efs/programming/typst/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "l.tex"
+ "t.typ"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ezzobir/efs/programming/typst/" (27185 40089 782048 878000) "t.typ" "t.pdf" "../" "./")
+
+ ("~/efs/programming/typst/" (27185 40089 782048 878000) "t.typ" "t.pdf" "../" "./")
+
+ ("/home/ezzobir/" (27188 22031 999507 711000) ".bash_history" "dotfiles/" ".gitconfig" ".bashrc" ".bash_profile" ".viminfo" ".java/" "Programming/" ".python_history" "Videos/" ".pki/" "Documents/" ".mupdf.history" ".gtkrc-2.0" "Pictures/" ".var/" ".gnupg/" ".cargo/" ".rustup/" ".ssh/" "efs/" "Downloads/" ".mozilla/" ".local/" ".cache/" ".config/" "../" "./")
+
+ ("/home/ezzobir/efs/programming/" (27185 29966 531813 700000) "typst/" "fish/" "../" "./")
+
+ ("/home/ezzobir/efs/programming/fish/" (27188 65147 276333 790000) "f.fish" "../" "./")
+
+ ("/home/ezzobir/efs/" (27177 64415 927593 748000) "documents/" "src/" "pdfs/" "programming/" "videos/" "haj_keddour.typ" "not_mine_repos/" "gimp_todo/" "appimages/" "youtube_videos_time/" "repos/" "../" "./")
+
+ ("/home/ezzobir/Documents/" (27177 64424 42937 689000) "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
