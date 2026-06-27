@@ -248,3 +248,17 @@ there's a region, all lines that region covers will be duplicated."
 (global-set-key (kbd "M-i") 'change-inner)
 (global-set-key (kbd "M-o") 'change-outer)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; dired create empty file
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defun my-dired-create-empty-file (filename)
+  "Create an empty file named FILENAME."
+  (interactive
+   (list (read-file-name "Create file: " (dired-current-directory))))
+  (write-region "" nil filename nil 'silent)
+  (revert-buffer))
+
+(with-eval-after-load 'dired
+  (define-key dired-mode-map (kbd "C-c C-n") #'my-dired-create-empty-file))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
