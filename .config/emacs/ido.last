@@ -3,11 +3,12 @@
 ;; ----- ido-last-directory-list -----
 (
  ("/home/ezzobir/efs/programming/" . "typst/")
- ("/home/ezzobir/efs/" . "programming/")
+ ("/home/ezzobir/efs/" . "documents/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/ezzobir/efs/documents/"
  "/home/ezzobir/efs/programming/typst/"
  "/home/ezzobir/efs/programming/latex/"
  "/home/ezzobir/"
@@ -16,6 +17,9 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "taleb_sonelgaz.typ"
+ "main.typ"
+ "main.pdf"
  "globals.typ"
  "t.typ"
  "l.tex"
@@ -23,13 +27,19 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/efs/programming/typst/" (27199 56948 176335 506000) "t.typ" "t.pdf" "../" "./")
+ ("~/efs/programming/typst/" (27202 42293 695858 767000) "main.typ" "themes/" "main.pdf" "../" "./")
 
- ("/home/ezzobir/" (27195 42019 449871 963000) "fonts.typ" ".bash_history" "dotfiles/" ".gitconfig" ".bashrc" ".bash_profile" ".viminfo" ".java/" "Programming/" ".python_history" "Videos/" ".pki/" "Documents/" ".mupdf.history" ".gtkrc-2.0" "Pictures/" ".var/" ".gnupg/" ".cargo/" ".rustup/" ".ssh/" "efs/" "Downloads/" ".mozilla/" ".local/" ".cache/" ".config/" "../" "./")
+ ("/home/ezzobir/efs/programming/latex/" (27189 1488 895979 994000) "l.tex" "../" "./")
+
+ ("/home/ezzobir/efs/programming/typst/" (27202 42293 695858 767000) "main.typ" "themes/" "main.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/documents/" (27200 28612 464000 69000) "koudria_mohamed_modem.jpg" "naam_mohamed/" "ossu_math/" "../" "./")
+
+ ("/home/ezzobir/efs/appimages/" (27202 13953 607758 271000) "neomacs-0.0.9-x86_64-unknown-linux-gnu.AppImage" "../" "./")
+
+ ("/home/ezzobir/" (27200 27021 701701 745000) ".gitconfig" ".bashrc" ".bash_profile" "dotfiles/" ".ssh/" ".bash_history" ".viminfo" ".java/" "Programming/" ".python_history" "Videos/" ".pki/" "Documents/" ".mupdf.history" ".gtkrc-2.0" "Pictures/" ".var/" ".gnupg/" ".cargo/" ".rustup/" "efs/" "Downloads/" ".mozilla/" ".local/" ".cache/" ".config/" "../" "./")
 
  ("/home/ezzobir/efs/programming/" (27189 1478 913122 58000) "latex/" "typst/" "fish/" "../" "./")
-
- ("~/efs/programming/typst/" (27185 40089 782048 878000) "t.typ" "t.pdf" "../" "./")
 
  ("/home/ezzobir/efs/programming/fish/" (27188 65147 276333 790000) "f.fish" "../" "./")
 
