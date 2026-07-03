@@ -25,9 +25,11 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/efs/programming/typst/" (27205 37423 414357 416000) "main-1.png" "cover.png" "main.typ" "themes/" "main.pdf" "../" "./")
+ ("/home/ezzobir/efs/programming/typst/" (27206 13924 153714 786000) "main.pdf" "main.typ" "../" "./")
 
- ("/home/ezzobir/" (27205 20809 67129 906000) "todo" ".gitconfig" ".bashrc" ".bash_profile" "dotfiles/" ".ssh/" ".bash_history" ".viminfo" ".java/" "Programming/" ".python_history" "Videos/" ".pki/" "Documents/" ".mupdf.history" ".gtkrc-2.0" "Pictures/" ".var/" ".gnupg/" ".cargo/" ".rustup/" "efs/" "Downloads/" ".mozilla/" ".local/" ".cache/" ".config/" "../" "./")
+ ("/home/ezzobir/efs/" (27206 37924 681899 344000) "usb/" "documents/" "src/" "pdfs/" "programming/" "videos/" "haj_keddour.typ" "not_mine_repos/" "gimp_todo/" "appimages/" "youtube_videos_time/" "repos/" "../" "./")
+
+ ("/home/ezzobir/" (27206 11199 641776 965000) "hadil/" "todo" ".gitconfig" ".bashrc" ".bash_profile" "dotfiles/" ".ssh/" ".bash_history" ".viminfo" ".java/" "Programming/" ".python_history" "Videos/" ".pki/" "Documents/" ".mupdf.history" ".gtkrc-2.0" "Pictures/" ".var/" ".gnupg/" ".cargo/" ".rustup/" "efs/" "Downloads/" ".mozilla/" ".local/" ".cache/" ".config/" "../" "./")
 
  ("~/efs/programming/typst/" (27202 14056 550460 382000) "main.typ" "main.pdf" "../" "./")
 
@@ -38,8 +40,6 @@
  ("/home/ezzobir/efs/programming/" (27189 1478 913122 58000) "latex/" "typst/" "fish/" "../" "./")
 
  ("/home/ezzobir/efs/programming/fish/" (27188 65147 276333 790000) "f.fish" "../" "./")
-
- ("/home/ezzobir/efs/" (27177 64415 927593 748000) "documents/" "src/" "pdfs/" "programming/" "videos/" "haj_keddour.typ" "not_mine_repos/" "gimp_todo/" "appimages/" "youtube_videos_time/" "repos/" "../" "./")
 
  ("/home/ezzobir/Documents/" (27177 64424 42937 689000) "../" "./")
 )
