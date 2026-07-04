@@ -9,9 +9,9 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/ezzobir/efs/programming/typst/"
+ "~/efs/programming/typst/"
  "/home/ezzobir/efs/programming/latex/"
  "/home/ezzobir/"
- "~/efs/programming/typst/"
 )
 
 ;; ----- ido-work-file-list -----
@@ -25,17 +25,17 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/efs/programming/typst/" (27206 13924 153714 786000) "main.pdf" "main.typ" "../" "./")
+ ("/home/ezzobir/efs/programming/typst/" (27208 9736 39104 670000) "main.typ" "main.png" "main.pdf" "../" "./")
+
+ ("~/efs/programming/typst/" (27206 56210 45131 547000) "main.png" "main.typ" "main.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/appimages/" (27208 9573 325077 168000) "neomacs-0.0.11-x86_64-unknown-linux-gnu.AppImage" "../" "./")
 
  ("/home/ezzobir/efs/" (27206 37924 681899 344000) "usb/" "documents/" "src/" "pdfs/" "programming/" "videos/" "haj_keddour.typ" "not_mine_repos/" "gimp_todo/" "appimages/" "youtube_videos_time/" "repos/" "../" "./")
 
  ("/home/ezzobir/" (27206 11199 641776 965000) "hadil/" "todo" ".gitconfig" ".bashrc" ".bash_profile" "dotfiles/" ".ssh/" ".bash_history" ".viminfo" ".java/" "Programming/" ".python_history" "Videos/" ".pki/" "Documents/" ".mupdf.history" ".gtkrc-2.0" "Pictures/" ".var/" ".gnupg/" ".cargo/" ".rustup/" "efs/" "Downloads/" ".mozilla/" ".local/" ".cache/" ".config/" "../" "./")
 
- ("~/efs/programming/typst/" (27202 14056 550460 382000) "main.typ" "main.pdf" "../" "./")
-
  ("/home/ezzobir/efs/programming/latex/" (27189 1488 895979 994000) "l.tex" "../" "./")
-
- ("/home/ezzobir/efs/appimages/" (27202 13953 607758 271000) "neomacs-0.0.9-x86_64-unknown-linux-gnu.AppImage" "../" "./")
 
  ("/home/ezzobir/efs/programming/" (27189 1478 913122 58000) "latex/" "typst/" "fish/" "../" "./")
 
