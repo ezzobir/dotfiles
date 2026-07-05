@@ -3,45 +3,36 @@
 ;; ----- ido-last-directory-list -----
 (
  ("/home/ezzobir/efs/programming/" . "typst/")
+ ("/home/ezzobir/efs/repos/" . "github/")
  ("/home/ezzobir/efs/" . "programming/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
  "/home/ezzobir/efs/programming/typst/"
- "~/efs/programming/typst/"
- "/home/ezzobir/efs/programming/latex/"
- "/home/ezzobir/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "boxes1.typ"
  "main.typ"
- "main.pdf"
- "globals.typ"
- "t.typ"
- "l.tex"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/efs/programming/typst/" (27208 9736 39104 670000) "main.typ" "main.png" "main.pdf" "../" "./")
+ ("/home/ezzobir/efs/programming/typst/" (27210 4818 700623 300000) "boxes2.pdf" "boxes2.typ" "boxes1.pdf" "boxes1.typ" "../" "./")
 
- ("~/efs/programming/typst/" (27206 56210 45131 547000) "main.png" "main.typ" "main.pdf" "../" "./")
+ ("/home/ezzobir/" (27210 4102 554766 95000) ".gitconfig" ".bashrc" ".bash_profile" "dotfiles/" ".ssh/" "efs/" ".gtkrc-2.0" ".cargo/" ".rustup/" ".bash_history" ".cache/" ".config/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".bash_logout" "../" "./")
 
- ("/home/ezzobir/efs/appimages/" (27208 9573 325077 168000) "neomacs-0.0.11-x86_64-unknown-linux-gnu.AppImage" "../" "./")
+ ("/home/ezzobir/dotfiles/.config/emacs/" (27210 2567 826751 18000) "auto-save-list/" "emacs-custom.el" "transient/" "eln-cache/" "elpa/" "init.el" "../" "./")
 
- ("/home/ezzobir/efs/" (27206 37924 681899 344000) "usb/" "documents/" "src/" "pdfs/" "programming/" "videos/" "haj_keddour.typ" "not_mine_repos/" "gimp_todo/" "appimages/" "youtube_videos_time/" "repos/" "../" "./")
+ ("/home/ezzobir/efs/programming/" (27209 17925 244092 528000) "typst/" "../" "./")
 
- ("/home/ezzobir/" (27206 11199 641776 965000) "hadil/" "todo" ".gitconfig" ".bashrc" ".bash_profile" "dotfiles/" ".ssh/" ".bash_history" ".viminfo" ".java/" "Programming/" ".python_history" "Videos/" ".pki/" "Documents/" ".mupdf.history" ".gtkrc-2.0" "Pictures/" ".var/" ".gnupg/" ".cargo/" ".rustup/" "efs/" "Downloads/" ".mozilla/" ".local/" ".cache/" ".config/" "../" "./")
+ ("/home/ezzobir/efs/repos/github/" (27208 54909 720816 918000) "ezzobir/" "../" "./")
 
- ("/home/ezzobir/efs/programming/latex/" (27189 1488 895979 994000) "l.tex" "../" "./")
+ ("/home/ezzobir/efs/repos/" (27208 54905 739603 864000) "github/" "../" "./")
 
- ("/home/ezzobir/efs/programming/" (27189 1478 913122 58000) "latex/" "typst/" "fish/" "../" "./")
-
- ("/home/ezzobir/efs/programming/fish/" (27188 65147 276333 790000) "f.fish" "../" "./")
-
- ("/home/ezzobir/Documents/" (27177 64424 42937 689000) "../" "./")
+ ("/home/ezzobir/efs/" (27209 17925 244092 528000) "programming/" "repos/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
