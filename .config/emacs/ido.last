@@ -14,13 +14,13 @@
 
 ;; ----- ido-work-file-list -----
 (
- "boxes1.typ"
  "main.typ"
+ "boxes1.typ"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/efs/programming/typst/" (27210 4868 518948 346000) "boxes1.typ" "boxes2.pdf" "boxes2.typ" "boxes1.pdf" "../" "./")
+ ("/home/ezzobir/efs/programming/typst/" (27210 48220 560123 450000) "main.typ" "main.pdf" "boxes1.typ" "boxes2.pdf" "boxes2.typ" "boxes1.pdf" "../" "./")
 
  ("/home/ezzobir/" (27210 4102 554766 95000) ".gitconfig" ".bashrc" ".bash_profile" "dotfiles/" ".ssh/" "efs/" ".gtkrc-2.0" ".cargo/" ".rustup/" ".bash_history" ".cache/" ".config/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".bash_logout" "../" "./")
 
