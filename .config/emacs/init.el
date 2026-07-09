@@ -35,9 +35,9 @@
 
 ;; THEME
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(add-to-list 'custom-theme-load-path "/home/ezzobir/.config/emacs/themes")
-(load-theme 'dank-emacs t)
-;; (load-theme 'modus-vivendi-deuteranopia t)
+;; (add-to-list 'custom-theme-load-path "/home/ezzobir/.config/emacs/themes")
+;; (load-theme 'dank-emacs t)
+(load-theme 'modus-vivendi-deuteranopia t)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; TRANSPARENCY
