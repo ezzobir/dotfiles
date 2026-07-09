@@ -10,29 +10,36 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/ezzobir/efs/programming/typst/"
+ "~/efs/programming/typst/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "rusor_box.typ"
+ "temp.typ"
+ "rusor.typ"
  "main.typ"
+ "new.typ"
  "boxes1.typ"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/efs/programming/typst/" (27210 48220 560123 450000) "main.typ" "main.pdf" "boxes1.typ" "boxes2.pdf" "boxes2.typ" "boxes1.pdf" "../" "./")
+ ("/home/ezzobir/efs/programming/typst/" (27213 57296 152377 352000) "rusor_box.typ" "main.typ" "../" "./")
 
- ("/home/ezzobir/" (27210 4102 554766 95000) ".gitconfig" ".bashrc" ".bash_profile" "dotfiles/" ".ssh/" "efs/" ".gtkrc-2.0" ".cargo/" ".rustup/" ".bash_history" ".cache/" ".config/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".local/" ".bash_logout" "../" "./")
+ ("/home/ezzobir/" (27213 32240 66808 824000) "n.typ" "n.pdf" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".Xresources" ".gitconfig" ".bashrc" ".bash_profile" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
+
+ ("~/efs/programming/typst/" (27213 32809 860464 574000) "temp.typ" "rusor.typ" "rusor.pdf" "main.typ" "main.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/programming/" (27212 49458 668909 677000) "typst/" "../" "./")
+
+ ("/home/ezzobir/efs/" (27212 49458 667909 664000) "programming/" "repos/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/" (27211 27773 621909 42000) "github/" "../" "./")
 
  ("/home/ezzobir/dotfiles/.config/emacs/" (27210 2567 826751 18000) "auto-save-list/" "emacs-custom.el" "transient/" "eln-cache/" "elpa/" "init.el" "../" "./")
 
- ("/home/ezzobir/efs/programming/" (27209 17925 244092 528000) "typst/" "../" "./")
-
  ("/home/ezzobir/efs/repos/github/" (27208 54909 720816 918000) "ezzobir/" "../" "./")
-
- ("/home/ezzobir/efs/repos/" (27208 54905 739603 864000) "github/" "../" "./")
-
- ("/home/ezzobir/efs/" (27209 17925 244092 528000) "programming/" "repos/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
