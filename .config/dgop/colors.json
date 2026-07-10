@@ -1,49 +1,49 @@
 {
   "ui": {
-    "border_primary": "#00d3d0",
-    "border_secondary": "#6ae4b9",
-    "header_background": "#00d3d0",
+    "border_primary": "#2fafff",
+    "border_secondary": "#79a8ff",
+    "header_background": "#2fafff",
     "header_text": "#000000",
     "footer_background": "#000000",
     "footer_text": "#989898",
     "text_primary": "#ffffff",
     "text_secondary": "#989898",
-    "text_accent": "#00d3d0",
-    "selection_background": "#00d3d0",
+    "text_accent": "#2fafff",
+    "selection_background": "#2fafff",
     "selection_text": "#000000"
   },
   "charts": {
-    "network_download": "#00d3d0",
-    "network_upload": "#0a4a49",
-    "network_line": "#6ae4b9",
-    "cpu_core_low": "#0a4a49",
-    "cpu_core_medium": "#00d3d0",
-    "cpu_core_high": "#6ae4b9",
-    "disk_read": "#00d3d0",
-    "disk_write": "#0a4a49"
+    "network_download": "#2fafff",
+    "network_upload": "#0f3a5e",
+    "network_line": "#79a8ff",
+    "cpu_core_low": "#0f3a5e",
+    "cpu_core_medium": "#2fafff",
+    "cpu_core_high": "#79a8ff",
+    "disk_read": "#2fafff",
+    "disk_write": "#0f3a5e"
   },
   "progress_bars": {
-    "memory_low": "#0a4a49",
-    "memory_medium": "#00d3d0",
-    "memory_high": "#6ae4b9",
-    "disk_low": "#0a4a49",
-    "disk_medium": "#00d3d0",
-    "disk_high": "#6ae4b9",
-    "cpu_low": "#0a4a49",
-    "cpu_medium": "#00d3d0",
-    "cpu_high": "#6ae4b9",
+    "memory_low": "#0f3a5e",
+    "memory_medium": "#2fafff",
+    "memory_high": "#79a8ff",
+    "disk_low": "#0f3a5e",
+    "disk_medium": "#2fafff",
+    "disk_high": "#79a8ff",
+    "cpu_low": "#0f3a5e",
+    "cpu_medium": "#2fafff",
+    "cpu_high": "#79a8ff",
     "progress_background": "#303030"
   },
   "temperature": {
-    "cold": "#0a4a49",
-    "warm": "#00d3d0",
-    "hot": "#6ae4b9",
+    "cold": "#0f3a5e",
+    "warm": "#2fafff",
+    "hot": "#79a8ff",
     "danger": "#ff5f59"
   },
   "status": {
     "success": "#22C55E",
     "warning": "#F59E0B",
     "error": "#ff5f59",
-    "info": "#00d3d0"
+    "info": "#2fafff"
   }
 }

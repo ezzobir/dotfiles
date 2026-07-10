@@ -6,7 +6,11 @@
     "modus": {
       "dark": {
         "flavor": "vivendi-deuteranopia",
-        "accent": "cyan"
+        "accent": "blue"
+      },
+      "light": {
+        "flavor": "operandi-deuteranopia",
+        "accent": "blue"
       }
     }
   },
