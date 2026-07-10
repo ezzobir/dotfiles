@@ -1,0 +1,13 @@
+[Default Applications]
+application/pdf=org.pwmt.zathura.desktop
+inode/directory=yazi.desktop
+x-scheme-handler/file=yazi.desktop
+x-scheme-handler/mailto=firefox.desktop
+
+[Added Associations]
+inode/directory=yazi.desktop;
+x-scheme-handler/file=yazi.desktop;
+x-scheme-handler/mailto=firefox.desktop;
+
+[Removed Associations]
+

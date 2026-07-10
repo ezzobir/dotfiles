@@ -9,31 +9,37 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/ezzobir/efs/repos/github/ezzobir/notes/typst/"
  "/home/ezzobir/efs/programming/typst/"
  "~/efs/programming/typst/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "horizontal_rusor_box.typ"
  "rusor_box.typ"
+ "main.typ"
  "temp.typ"
  "rusor.typ"
- "main.typ"
  "new.typ"
  "boxes1.typ"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/ezzobir/efs/repos/github/ezzobir/notes/typst/" (27216 37410 433986 698000) "vertical_rusor_box.typ" "vertical_rusor_box.pdf" "cover_page.typ" "rusor_page/" "boxes2.typ" "boxes1.typ" "../" "./")
+
+ ("/home/ezzobir/efs/programming/typst/" (27215 27997 315871 831000) "main.pdf" "main.typ" "../" "./")
+
+ ("/home/ezzobir/Desktop/" (27211 24338 38387 404000) "../" "./")
+
+ ("/home/ezzobir/" (27215 63850 745005 304000) "roadmap.typ" "roadmap.pdf" "n.typ" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".Xresources" ".gitconfig" ".bashrc" ".bash_profile" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
+
  ("/home/ezzobir/dotfiles/.config/emacs/auto-save-list/" (27215 19159 735113 286000) ".saves-51634-archlinux~" "../" "./")
 
  ("/home/ezzobir/dotfiles/.config/emacs/" (27215 19413 571490 884000) "ido.last" "auto-save-list/" "transient/" "themes/" "init.el" "emacs-custom.el" "elpa/" "eln-cache/" "../" "./")
 
  ("~/efs/programming/typst/" (27213 57498 595029 753000) "main.typ" "../" "./")
-
- ("/home/ezzobir/efs/programming/typst/" (27213 57498 595029 753000) "main.typ" "../" "./")
-
- ("/home/ezzobir/" (27215 18655 33565 12000) "n.typ" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".Xresources" ".gitconfig" ".bashrc" ".bash_profile" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
 
  ("/home/ezzobir/efs/programming/" (27212 49458 668909 677000) "typst/" "../" "./")
 
