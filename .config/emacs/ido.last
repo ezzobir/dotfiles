@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/ezzobir/" . "Documents/")
  ("/home/ezzobir/efs/programming/" . "typst/")
  ("/home/ezzobir/efs/repos/" . "github/")
  ("/home/ezzobir/efs/" . "programming/")
@@ -9,16 +10,20 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/ezzobir/efs/repos/github/ezzobir/notes/typst/"
+ "/home/ezzobir/Documents/"
  "/home/ezzobir/efs/programming/typst/"
+ "/home/ezzobir/efs/repos/github/ezzobir/notes/typst/"
  "~/efs/programming/typst/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "test.typ"
+ "main.typ"
+ "numb.typ"
+ "en_main.typ"
  "horizontal_rusor_box.typ"
  "rusor_box.typ"
- "main.typ"
  "temp.typ"
  "rusor.typ"
  "new.typ"
@@ -27,19 +32,23 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/efs/repos/github/ezzobir/notes/typst/" (27216 37410 433986 698000) "vertical_rusor_box.typ" "vertical_rusor_box.pdf" "cover_page.typ" "rusor_page/" "boxes2.typ" "boxes1.typ" "../" "./")
+ ("/home/ezzobir/Documents/" (27211 24338 38387 404000) "../" "./")
 
- ("/home/ezzobir/efs/programming/typst/" (27215 27997 315871 831000) "main.pdf" "main.typ" "../" "./")
+ ("/home/ezzobir/" (27231 19825 869633 432000) ".Xresources" ".Xresources.backup1783673954" ".Xresources.backup1783673945" ".gitconfig" ".bashrc" ".bash_profile" "n.typ" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
+
+ ("/home/ezzobir/Downloads/" (27231 19853 848485 84000) "neomacs-0.0.13-x86_64-unknown-linux-gnu.AppImage" "Telegram Desktop/" "../" "./")
+
+ ("/home/ezzobir/efs/programming/typst/" (27217 15260 233341 521000) "numb.pdf" "numb.typ" "en_main.typ" "en_main.pdf" "main.typ" "main.pdf" "../" "./")
+
+ ("~/efs/programming/typst/" (27217 14556 726756 343000) "en_main.typ" "#main.typ#" "en_main.pdf" ".#main.typ" "main.typ" "main.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/notes/typst/" (27216 37568 945311 477000) "rusor/" "cover_page.typ" "boxes2.typ" "boxes1.typ" "../" "./")
+
+ ("/home/ezzobir/dotfiles/.config/emacs/" (27216 50074 941529 440000) "ido.last" "auto-save-list/" "transient/" "themes/" "init.el" "emacs-custom.el" "elpa/" "eln-cache/" "../" "./")
 
  ("/home/ezzobir/Desktop/" (27211 24338 38387 404000) "../" "./")
 
- ("/home/ezzobir/" (27215 63850 745005 304000) "roadmap.typ" "roadmap.pdf" "n.typ" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".Xresources" ".gitconfig" ".bashrc" ".bash_profile" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
-
  ("/home/ezzobir/dotfiles/.config/emacs/auto-save-list/" (27215 19159 735113 286000) ".saves-51634-archlinux~" "../" "./")
-
- ("/home/ezzobir/dotfiles/.config/emacs/" (27215 19413 571490 884000) "ido.last" "auto-save-list/" "transient/" "themes/" "init.el" "emacs-custom.el" "elpa/" "eln-cache/" "../" "./")
-
- ("~/efs/programming/typst/" (27213 57498 595029 753000) "main.typ" "../" "./")
 
  ("/home/ezzobir/efs/programming/" (27212 49458 668909 677000) "typst/" "../" "./")
 

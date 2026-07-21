@@ -21,96 +21,96 @@
 (deftheme dank-emacs "Enhanced theme using Matugen variables with dank16 color integration.")
 
 ;; Define all the color variables (replaced by template processor)
-(let* ((bg "#1e1e1e")
-      (err "#ff1a62")  ; Red from dank16
-      (err-container "#8c1d18")
-      (on-background "#ffffff")
-      (on-err "#601410")
-      (on-err-container "#f9dedc")
-      (on-primary "#000000")
-      (on-primary-container "#ffffff")
-      (on-secondary "#000000")
-      (on-secondary-container "#ffffff")
-      (on-surface "#ffffff")
-      (on-surface-variant "#989898")
-      (on-tertiary "#000000")
-      (on-tertiary-container "#ffffff")
-      (outline-color "#646464")
-      (outline-variant "#1e1e1e")
-      (primary "#2fafff")
-      (primary-container "#0f3a5e")
-      (secondary "#79a8ff")
-      (secondary-container "#535353")
+(let* ((bg "#111318")
+      (err "#ff7299")  ; Red from dank16
+      (err-container "#93000a")
+      (on-background "#e2e2e9")
+      (on-err "#690005")
+      (on-err-container "#ffdad6")
+      (on-primary "#102f60")
+      (on-primary-container "#d8e2ff")
+      (on-secondary "#293041")
+      (on-secondary-container "#dbe2f9")
+      (on-surface "#e2e2e9")
+      (on-surface-variant "#c4c6d0")
+      (on-tertiary "#402843")
+      (on-tertiary-container "#fbd7fc")
+      (outline-color "#8e9099")
+      (outline-variant "#44474f")
+      (primary "#adc6ff")
+      (primary-container "#2b4678")
+      (secondary "#bfc6dc")
+      (secondary-container "#3f4759")
       (shadow "#000000")
-      (surface "#000000")
-      (surface-container "#535353")
-      (surface-container-high "#6a6a6a")
-      (surface-container-highest "#535353")
-      (surface-container-low "#000000")
-      (surface-container-lowest "#1e1e1e")
-      (surface-variant "#1e1e1e")
-      (tertiary "#79a8ff")
-      (tertiary-container "#535353")
+      (surface "#111318")
+      (surface-container "#282a2f")
+      (surface-container-high "#33353a")
+      (surface-container-highest "#282a2f")
+      (surface-container-low "#1a1b20")
+      (surface-container-lowest "#0c0e13")
+      (surface-variant "#44474f")
+      (tertiary "#debcdf")
+      (tertiary-container "#583e5b")
 
       ;; Enhanced dank16 colors for better syntax highlighting
-      (dank-red "#ff1a62")          ; Bright red
-      (dank-red-alt "#ff6293")      ; Alternative red
-      (dank-green "#2fff48")        ; Vibrant green
-      (dank-green-bright "#6dff7e") ; Bright green
-      (dank-yellow "#fff11a")       ; Warm yellow
-      (dank-yellow-bright "#fff66d") ; Bright yellow
-      (dank-blue "#0597f2")         ; Blue-green
-      (dank-magenta "#004876")      ; Teal-magenta
-      (dank-cyan "#2fafff")         ; Bright cyan
-      (dank-cyan-bright "#4ebbff") ; Brightest cyan
-      (dank-cyan-dark "#6dc7ff")   ; Dark cyan
-      (dank-teal "#a1dbff")        ; Dark teal
-      (dank-fg "#e6f5ff")           ; Light foreground
-      (dank-gray "#919da5")         ; Gray
-      (dank-white "#f4faff")       ; White
+      (dank-red "#ff7299")          ; Bright red
+      (dank-red-alt "#ff9fb9")      ; Alternative red
+      (dank-green "#7fff92")        ; Vibrant green
+      (dank-green-bright "#a5ffb3") ; Bright green
+      (dank-yellow "#fff872")       ; Warm yellow
+      (dank-yellow-bright "#fffaa5") ; Bright yellow
+      (dank-blue "#94b1f2")         ; Blue-green
+      (dank-magenta "#304576")      ; Teal-magenta
+      (dank-cyan "#adc6ff")         ; Bright cyan
+      (dank-cyan-bright "#b9ceff") ; Brightest cyan
+      (dank-cyan-dark "#c5d7ff")   ; Dark cyan
+      (dank-teal "#dae5ff")        ; Dark teal
+      (dank-fg "#eff4ff")           ; Light foreground
+      (dank-gray "#999da5")         ; Gray
+      (dank-white "#f8faff")       ; White
 
       ;; Map success colors to green
-      (success "#2fff48")
-      (on-success "#000000")
-      (success-container "#535353")
-      (on-success-container "#ffffff")
+      (success "#7fff92")
+      (on-success "#402843")
+      (success-container "#583e5b")
+      (on-success-container "#fbd7fc")
 
       ;; Map fixed colors
-      (primary-fixed "#0f3a5e")
-      (primary-fixed-dim "#2fafff")
-      (secondary-fixed "#79a8ff")
-      (secondary-fixed-dim "#79a8ff")
-      (tertiary-fixed "#79a8ff")
-      (tertiary-fixed-dim "#79a8ff")
-      (on-primary-fixed "#000000")
-      (on-primary-fixed-variant "#000000")
-      (on-secondary-fixed "#000000")
-      (on-secondary-fixed-variant "#000000")
-      (on-tertiary-fixed "#000000")
-      (on-tertiary-fixed-variant "#000000")
+      (primary-fixed "#d8e2ff")
+      (primary-fixed-dim "#adc6ff")
+      (secondary-fixed "#dbe2f9")
+      (secondary-fixed-dim "#bfc6dc")
+      (tertiary-fixed "#fbd7fc")
+      (tertiary-fixed-dim "#debcdf")
+      (on-primary-fixed "#001a41")
+      (on-primary-fixed-variant "#2b4678")
+      (on-secondary-fixed "#141b2c")
+      (on-secondary-fixed-variant "#3f4759")
+      (on-tertiary-fixed "#29132d")
+      (on-tertiary-fixed-variant "#583e5b")
 
       ;; Map inverse colors
-      (inverse-on-surface "#000000")
-      (inverse-primary "#0031a9")
-      (inverse-surface "#ffffff")
+      (inverse-on-surface "#2f3036")
+      (inverse-primary "#445e91")
+      (inverse-surface "#e2e2e9")
 
       ;; Terminal colors from dank16
-      (term0 "#000000")
-      (term1 "#ff1a62")
-      (term2 "#2fff48")
-      (term3 "#fff11a")
-      (term4 "#0597f2")
-      (term5 "#004876")
-      (term6 "#2fafff")
-      (term7 "#e6f5ff")
-      (term8 "#919da5")
-      (term9 "#ff6293")
-      (term10 "#6dff7e")
-      (term11 "#fff66d")
-      (term12 "#4ebbff")
-      (term13 "#6dc7ff")
-      (term14 "#a1dbff")
-      (term15 "#f4faff"))
+      (term0 "#111318")
+      (term1 "#ff7299")
+      (term2 "#7fff92")
+      (term3 "#fff872")
+      (term4 "#94b1f2")
+      (term5 "#304576")
+      (term6 "#adc6ff")
+      (term7 "#eff4ff")
+      (term8 "#999da5")
+      (term9 "#ff9fb9")
+      (term10 "#a5ffb3")
+      (term11 "#fffaa5")
+      (term12 "#b9ceff")
+      (term13 "#c5d7ff")
+      (term14 "#dae5ff")
+      (term15 "#f8faff"))
 
   (custom-theme-set-faces
    'dank-emacs
