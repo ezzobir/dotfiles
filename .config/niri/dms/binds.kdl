@@ -6,7 +6,7 @@ binds {
     Mod+Alt+L hotkey-overlay-title="Lock Screen" { spawn "dms" "ipc" "call" "lock" "lock"; }
     Mod+Comma hotkey-overlay-title="Settings" { spawn "dms" "ipc" "call" "settings" "focusOrToggle"; }
     Mod+Ctrl+N hotkey-overlay-title="Notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
-    Mod+Ctrl+T repeat=false allow-inhibiting=false hotkey-overlay-title="toggle dankbar" { spawn "dms" "ipc" "call" "bar" "toggle" "name" "Main" "Bar"; }
+    Mod+Ctrl+T hotkey-overlay-title="toggle dankbar" { spawn "dms" "ipc" "call" "bar" "toggle" "name" "Main" "Bar"; }
     Mod+M hotkey-overlay-title="Task Manager" { spawn "dms" "ipc" "call" "processlist" "focusOrToggle"; }
     Mod+N hotkey-overlay-title="Notification Center" { spawn "dms" "ipc" "call" "notifications" "toggle"; }
     Mod+V hotkey-overlay-title="Clipboard Manager" { spawn "dms" "ipc" "call" "clipboard" "toggle"; }

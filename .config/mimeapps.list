@@ -1,10 +1,24 @@
 [Default Applications]
 application/pdf=org.pwmt.zathura.desktop
+image/avif=swayimg.desktop
+image/bmp=swayimg.desktop
+image/gif=swayimg.desktop
+image/jpeg=swayimg.desktop
+image/png=swayimg.desktop
+image/svg+xml=swayimg.desktop
+image/webp=swayimg.desktop
 inode/directory=yazi.desktop
 x-scheme-handler/file=yazi.desktop
 x-scheme-handler/mailto=firefox.desktop
 
 [Added Associations]
+image/avif=swayimg.desktop;
+image/bmp=swayimg.desktop;
+image/gif=swayimg.desktop;
+image/jpeg=swayimg.desktop;
+image/png=swayimg.desktop;
+image/svg+xml=swayimg.desktop;
+image/webp=swayimg.desktop;
 inode/directory=yazi.desktop;
 x-scheme-handler/file=yazi.desktop;
 x-scheme-handler/mailto=firefox.desktop;
