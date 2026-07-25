@@ -10,16 +10,16 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/ezzobir/Documents/"
  "/home/ezzobir/efs/programming/typst/"
+ "/home/ezzobir/Documents/"
  "/home/ezzobir/efs/repos/github/ezzobir/notes/typst/"
  "~/efs/programming/typst/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "test.typ"
  "main.typ"
+ "test.typ"
  "numb.typ"
  "en_main.typ"
  "horizontal_rusor_box.typ"
@@ -32,13 +32,13 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/ezzobir/efs/programming/typst/" (27231 43513 462875 917000) "main.typ" "main.png" "main.pdf" "../" "./")
+
  ("/home/ezzobir/Documents/" (27211 24338 38387 404000) "../" "./")
 
  ("/home/ezzobir/" (27231 19825 869633 432000) ".Xresources" ".Xresources.backup1783673954" ".Xresources.backup1783673945" ".gitconfig" ".bashrc" ".bash_profile" "n.typ" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
 
  ("/home/ezzobir/Downloads/" (27231 19853 848485 84000) "neomacs-0.0.13-x86_64-unknown-linux-gnu.AppImage" "Telegram Desktop/" "../" "./")
-
- ("/home/ezzobir/efs/programming/typst/" (27217 15260 233341 521000) "numb.pdf" "numb.typ" "en_main.typ" "en_main.pdf" "main.typ" "main.pdf" "../" "./")
 
  ("~/efs/programming/typst/" (27217 14556 726756 343000) "en_main.typ" "#main.typ#" "en_main.pdf" ".#main.typ" "main.typ" "main.pdf" "../" "./")
 
