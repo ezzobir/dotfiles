@@ -1,11 +1,11 @@
 {
-  "currentThemeName": "dynamic",
-  "currentThemeCategory": "dynamic",
+  "currentThemeName": "custom",
+  "currentThemeCategory": "custom",
   "customThemeFile": "/home/ezzobir/.config/DankMaterialShell/themes/modus/theme.json",
   "registryThemeVariants": {
     "modus": {
       "dark": {
-        "flavor": "vivendi-deuteranopia",
+        "flavor": "operandi-deuteranopia",
         "accent": "blue"
       },
       "light": {
@@ -267,7 +267,9 @@
   "spotlightCloseNiriOverview": true,
   "rememberLastQuery": false,
   "rememberLastMode": true,
-  "spotlightSectionViewModes": {},
+  "spotlightSectionViewModes": {
+    "apps": "list"
+  },
   "appDrawerSectionViewModes": {},
   "niriOverviewOverlayEnabled": true,
   "niriOverviewLauncherStyle": "full",
@@ -391,11 +393,6 @@
   "fadeToDpmsEnabled": true,
   "fadeToDpmsGracePeriod": 5,
   "launchPrefix": "",
-  "brightnessDevicePins": {},
-  "wifiNetworkPins": {},
-  "bluetoothDevicePins": {},
-  "audioInputDevicePins": {},
-  "audioOutputDevicePins": {},
   "gtkThemingEnabled": false,
   "qtThemingEnabled": false,
   "syncModeWithPortal": true,
@@ -573,7 +570,7 @@
       "id": "default",
       "name": "Main Bar",
       "enabled": true,
-      "position": 1,
+      "position": 0,
       "screenPreferences": [
         "all"
       ],
@@ -653,7 +650,7 @@
       "autoHide": false,
       "autoHideDelay": 250,
       "showOnWindowsOpen": false,
-      "openOnOverview": true,
+      "openOnOverview": false,
       "visible": false,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
@@ -759,14 +756,21 @@
         "eDP-1": {
           "width": 345.27734375,
           "height": 171.5546875,
-          "x": 1007.3359375,
-          "y": 16.6015625
+          "x": 1020.72265625,
+          "y": 472.140625
         }
       }
     }
   ],
   "desktopWidgetGroups": [],
-  "builtInPluginSettings": {},
+  "builtInPluginSettings": {
+    "dms_settings_search": {
+      "trigger": "?"
+    },
+    "dms_clipboard_search": {
+      "trigger": "cb"
+    }
+  },
   "clipboardClickToPaste": false,
   "clipboardEnterToPaste": false,
   "clipboardRememberTypeFilter": false,
@@ -797,5 +801,5 @@
   "barInsetPaddingShared": -1,
   "barInsetPaddingSyncAll": false,
   "frameBarInsetPadding": -1,
-  "configVersion": 12
+  "configVersion": 13
 }
