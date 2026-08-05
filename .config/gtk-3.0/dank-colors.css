@@ -6,10 +6,10 @@
 /* via thairanaru on GitHub: */
 
 /* Destructive colors are basically error colors */
-@define-color destructive_bg_color #ff5f59;
+@define-color destructive_bg_color #ff7f86;
 @define-color destructive_fg_color #601410;
 /* Follow material spec */
-@define-color error_bg_color #ff5f59;
+@define-color error_bg_color #ff7f86;
 @define-color error_fg_color #601410;
 /* Follow material spec (also I think looks nicer) */
 @define-color accent_fg_color #000000;

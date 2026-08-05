@@ -39,7 +39,7 @@
       (outline-variant "#1e1e1e")
       (primary "#2fafff")
       (primary-container "#0f3a5e")
-      (secondary "#79a8ff")
+      (secondary "#b6a0ff")
       (secondary-container "#535353")
       (shadow "#000000")
       (surface "#000000")
@@ -49,7 +49,7 @@
       (surface-container-low "#000000")
       (surface-container-lowest "#1e1e1e")
       (surface-variant "#1e1e1e")
-      (tertiary "#79a8ff")
+      (tertiary "#b6a0ff")
       (tertiary-container "#535353")
 
       ;; Enhanced dank16 colors for better syntax highlighting
@@ -78,10 +78,10 @@
       ;; Map fixed colors
       (primary-fixed "#0f3a5e")
       (primary-fixed-dim "#2fafff")
-      (secondary-fixed "#79a8ff")
-      (secondary-fixed-dim "#79a8ff")
-      (tertiary-fixed "#79a8ff")
-      (tertiary-fixed-dim "#79a8ff")
+      (secondary-fixed "#b6a0ff")
+      (secondary-fixed-dim "#b6a0ff")
+      (tertiary-fixed "#b6a0ff")
+      (tertiary-fixed-dim "#b6a0ff")
       (on-primary-fixed "#000000")
       (on-primary-fixed-variant "#000000")
       (on-secondary-fixed "#000000")
