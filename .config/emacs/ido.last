@@ -10,6 +10,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/ezzobir/.config/niri/dms/"
  "/home/ezzobir/efs/programming/typst/"
  "/home/ezzobir/Documents/"
  "/home/ezzobir/efs/repos/github/ezzobir/notes/typst/"
@@ -18,6 +19,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "binds.kdl"
  "main.typ"
  "test.typ"
  "numb.typ"
@@ -27,11 +29,12 @@
  "temp.typ"
  "rusor.typ"
  "new.typ"
- "boxes1.typ"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/ezzobir/.config/niri/dms/" (27231 46747 316475 212000) "binds.kdl" "wpblur.kdl" "windowrules.kdl" "cursor.kdl" "outputs.kdl" "alttab.kdl" "layout.kdl" "colors.kdl" "../" "./")
+
  ("/home/ezzobir/efs/programming/typst/" (27231 43631 925423 623000) "main.typ" "main.png" "main.pdf" "../" "./")
 
  ("/home/ezzobir/Downloads/" (27236 37595 651121 800000) "neomacs-0.0.14-x86_64-unknown-linux-gnu.AppImage" "Telegram Desktop/" "../" "./")
