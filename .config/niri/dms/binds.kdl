@@ -21,8 +21,8 @@ binds {
     XF86AudioPlay allow-when-locked=true { spawn "dms" "ipc" "call" "mpris" "playPause"; }
     XF86AudioPrev allow-when-locked=true { spawn "dms" "ipc" "call" "mpris" "previous"; }
     XF86AudioRaiseVolume allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "increment" "3"; }
-    XF86MonBrightnessDown allow-when-locked=true { spawn "dms" "ipc" "call" "brightness" "decrement" "5" ""; }
-    XF86MonBrightnessUp allow-when-locked=true { spawn "dms" "ipc" "call" "brightness" "increment" "5" ""; }
+    XF86MonBrightnessDown allow-when-locked=true hotkey-overlay-title="Brightness Down (1%)" { spawn "dms" "ipc" "call" "brightness" "decrement" "1" ""; }
+    XF86MonBrightnessUp allow-when-locked=true hotkey-overlay-title="Brightness Up (1%)" { spawn "dms" "ipc" "call" "brightness" "increment" "1" ""; }
     Mod+1 { focus-workspace 1; }
     Mod+2 { focus-workspace 2; }
     Mod+3 { focus-workspace 3; }
@@ -126,7 +126,7 @@ binds {
     Print { screenshot; }
     XF86Launch1 { screenshot; }
     Mod+Shift+E { quit; }
-    Mod+A hotkey-overlay-title="run woomer" repeat=false allow-inhibiting=false { spawn "/home/ezzobir/efs/repos/github/coffeeispower/woomer/target/debug/woomer"; }
+    Mod+A repeat=false allow-inhibiting=false hotkey-overlay-title="run woomer" { spawn "/home/ezzobir/efs/repos/github/coffeeispower/woomer/target/debug/woomer"; }
     Mod+T hotkey-overlay-title="Open Terminal" { spawn "alacritty"; }
     Super+Return hotkey-overlay-title="Open Terminal" { spawn "alacritty"; }
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }

@@ -10,8 +10,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/ezzobir/.config/niri/dms/"
  "/home/ezzobir/efs/programming/typst/"
+ "/home/ezzobir/Downloads/"
+ "/home/ezzobir/.config/niri/dms/"
  "/home/ezzobir/Documents/"
  "/home/ezzobir/efs/repos/github/ezzobir/notes/typst/"
  "~/efs/programming/typst/"
@@ -19,8 +20,9 @@
 
 ;; ----- ido-work-file-list -----
 (
- "binds.kdl"
  "main.typ"
+ "excepLicense.pdf"
+ "binds.kdl"
  "test.typ"
  "numb.typ"
  "en_main.typ"
@@ -28,20 +30,19 @@
  "rusor_box.typ"
  "temp.typ"
  "rusor.typ"
- "new.typ"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/ezzobir/efs/programming/typst/" (27251 43746 589149 158000) "main.typ" "main.png" "main.pdf" "../" "./")
+
+ ("/home/ezzobir/Downloads/" (27263 44187 763107 773000) "excepLicense.pdf" "neomacs-0.0.15-x86_64-unknown-linux-gnu.AppImage" "Telegram Desktop/" "../" "./")
+
+ ("/home/ezzobir/" (27248 60242 582131 376000) ".Xresources" ".Xresources.backup1783673954" ".Xresources.backup1783673945" ".gitconfig" ".bashrc" ".bash_profile" "n.typ" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
+
  ("/home/ezzobir/.config/niri/dms/" (27231 46747 316475 212000) "binds.kdl" "wpblur.kdl" "windowrules.kdl" "cursor.kdl" "outputs.kdl" "alttab.kdl" "layout.kdl" "colors.kdl" "../" "./")
 
- ("/home/ezzobir/efs/programming/typst/" (27231 43631 925423 623000) "main.typ" "main.png" "main.pdf" "../" "./")
-
- ("/home/ezzobir/Downloads/" (27236 37595 651121 800000) "neomacs-0.0.14-x86_64-unknown-linux-gnu.AppImage" "Telegram Desktop/" "../" "./")
-
  ("/home/ezzobir/Documents/" (27211 24338 38387 404000) "../" "./")
-
- ("/home/ezzobir/" (27231 19825 869633 432000) ".Xresources" ".Xresources.backup1783673954" ".Xresources.backup1783673945" ".gitconfig" ".bashrc" ".bash_profile" "n.typ" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
 
  ("~/efs/programming/typst/" (27217 14556 726756 343000) "en_main.typ" "#main.typ#" "en_main.pdf" ".#main.typ" "main.typ" "main.pdf" "../" "./")
 
