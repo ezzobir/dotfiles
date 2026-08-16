@@ -1,11 +1,11 @@
 {
   "currentThemeName": "custom",
-  "currentThemeCategory": "custom",
+  "currentThemeCategory": "registry",
   "customThemeFile": "/home/ezzobir/.config/DankMaterialShell/themes/modus/theme.json",
   "registryThemeVariants": {
     "modus": {
       "dark": {
-        "flavor": "operandi-deuteranopia",
+        "flavor": "vivendi-deuteranopia",
         "accent": "blue"
       },
       "light": {
