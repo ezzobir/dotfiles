@@ -10,6 +10,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/documents_to_give/files/"
  "/home/ezzobir/efs/programming/typst/"
  "/home/ezzobir/Downloads/"
  "/home/ezzobir/.config/niri/dms/"
@@ -20,6 +21,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "talab_khati_tibaza.typ"
  "main.typ"
  "excepLicense.pdf"
  "binds.kdl"
@@ -29,16 +31,17 @@
  "horizontal_rusor_box.typ"
  "rusor_box.typ"
  "temp.typ"
- "rusor.typ"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/efs/programming/typst/" (27251 43746 589149 158000) "main.typ" "main.png" "main.pdf" "../" "./")
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/documents_to_give/files/" (27268 40950 901140 971000) "template_talab_khati.pdf" "talab_khati_tibaza.typ" "talab_khati_tibaza.pdf" "talab_khati_blida.typ" "talab_khati_blida.pdf" "../" "./")
+
+ ("/home/ezzobir/" (27268 39841 192013 230000) ".gnupg/" ".Xresources" ".Xresources.backup1783673954" ".Xresources.backup1783673945" ".gitconfig" ".bashrc" ".bash_profile" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
+
+ ("/home/ezzobir/efs/programming/typst/" (27263 45009 340191 913000) "main.typ" "main.png" "main.pdf" "../" "./")
 
  ("/home/ezzobir/Downloads/" (27263 44187 763107 773000) "excepLicense.pdf" "neomacs-0.0.15-x86_64-unknown-linux-gnu.AppImage" "Telegram Desktop/" "../" "./")
-
- ("/home/ezzobir/" (27248 60242 582131 376000) ".Xresources" ".Xresources.backup1783673954" ".Xresources.backup1783673945" ".gitconfig" ".bashrc" ".bash_profile" "n.typ" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
 
  ("/home/ezzobir/.config/niri/dms/" (27231 46747 316475 212000) "binds.kdl" "wpblur.kdl" "windowrules.kdl" "cursor.kdl" "outputs.kdl" "alttab.kdl" "layout.kdl" "colors.kdl" "../" "./")
 
