@@ -46,8 +46,8 @@
 
 ;;; Generated autoloads from expand-region.el
 
-(autoload 'er/expand-region "expand-region" "\
-Increase selected region by semantic units.
+(autoload 'er/expand-region "expand-region"
+"Increase selected region by semantic units.
 
 With prefix argument expands the region that many times.
 If prefix argument is negative calls `er/contract-region'.
@@ -59,8 +59,8 @@ before calling `er/expand-region' for the first time.
 
 ;;; Generated autoloads from expand-region-core.el
 
-(autoload 'er/contract-region "expand-region-core" "\
-Contract the selected region to its previous size.
+(autoload 'er/contract-region "expand-region-core"
+"Contract the selected region to its previous size.
 With prefix argument contracts that many times.
 If prefix argument is negative calls `er/expand-region'.
 If prefix argument is 0 it resets point and mark to their state
@@ -73,44 +73,44 @@ before calling `er/expand-region' for the first time.
 ;;; Generated autoloads from expand-region-custom.el
 
 (let ((loads (get 'expand-region 'custom-loads))) (if (member '"expand-region-custom" loads) nil (put 'expand-region 'custom-loads (cons '"expand-region-custom" loads)) (put 'tools 'custom-loads (cons 'expand-region (get 'tools 'custom-loads)))))
-(defvar expand-region-preferred-python-mode 'python "\
-The name of your preferred python mode.")
+(defvar expand-region-preferred-python-mode 'python
+"The name of your preferred python mode.")
 (custom-autoload 'expand-region-preferred-python-mode "expand-region-custom" t)
-(defvar expand-region-guess-python-mode t "\
-If expand-region should attempt to guess your preferred python mode.")
+(defvar expand-region-guess-python-mode t
+"If expand-region should attempt to guess your preferred python mode.")
 (custom-autoload 'expand-region-guess-python-mode "expand-region-custom" t)
-(defvar expand-region-autocopy-register "" "\
-Register to copy most recent expand or contract to.
+(defvar expand-region-autocopy-register ""
+"Register to copy most recent expand or contract to.
 
 Activated when set to a string of a single character (for example, \"e\").")
 (custom-autoload 'expand-region-autocopy-register "expand-region-custom" t)
-(defvar expand-region-skip-whitespace t "\
-If expand-region should skip past whitespace on initial expansion.")
+(defvar expand-region-skip-whitespace t
+"If expand-region should skip past whitespace on initial expansion.")
 (custom-autoload 'expand-region-skip-whitespace "expand-region-custom" t)
-(defvar expand-region-fast-keys-enabled t "\
-If expand-region should bind fast keys after initial expand/contract.")
+(defvar expand-region-fast-keys-enabled t
+"If expand-region should bind fast keys after initial expand/contract.")
 (custom-autoload 'expand-region-fast-keys-enabled "expand-region-custom" t)
-(defvar expand-region-contract-fast-key "-" "\
-Key to use after an initial expand/contract to contract once more.")
+(defvar expand-region-contract-fast-key "-"
+"Key to use after an initial expand/contract to contract once more.")
 (custom-autoload 'expand-region-contract-fast-key "expand-region-custom" t)
-(defvar expand-region-reset-fast-key "0" "\
-Key to use after an initial expand/contract to undo.")
+(defvar expand-region-reset-fast-key "0"
+"Key to use after an initial expand/contract to undo.")
 (custom-autoload 'expand-region-reset-fast-key "expand-region-custom" t)
-(defvar expand-region-exclude-text-mode-expansions '(html-mode nxml-mode) "\
-List of modes derived from `text-mode' to exclude from text mode expansions.")
+(defvar expand-region-exclude-text-mode-expansions '(html-mode nxml-mode)
+"List of modes derived from `text-mode' to exclude from text mode expansions.")
 (custom-autoload 'expand-region-exclude-text-mode-expansions "expand-region-custom" t)
-(defvar expand-region-smart-cursor nil "\
-Defines whether the cursor should be placed intelligently after expansion.
+(defvar expand-region-smart-cursor nil
+"Defines whether the cursor should be placed intelligently after expansion.
 
 If set to t, and the cursor is already at the beginning of the new region,
 keep it there; otherwise, put it at the end of the region.
 
 If set to nil, always place the cursor at the beginning of the region.")
 (custom-autoload 'expand-region-smart-cursor "expand-region-custom" t)
-(define-obsolete-variable-alias 'er/enable-subword-mode? 'expand-region-subword-enabled "\
-2019-03-23")
-(defvar expand-region-subword-enabled nil "\
-Whether expand-region should use subword expansions.")
+(define-obsolete-variable-alias 'er/enable-subword-mode? 'expand-region-subword-enabled
+"2019-03-23")
+(defvar expand-region-subword-enabled nil
+"Whether expand-region should use subword expansions.")
 (custom-autoload 'expand-region-subword-enabled "expand-region-custom" t)
 (register-definition-prefixes "expand-region-custom" '("expand-region-"))
 

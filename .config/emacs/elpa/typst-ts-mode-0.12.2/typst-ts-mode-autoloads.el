@@ -11,18 +11,22 @@
 
 ;;; Generated autoloads from typst-ts-compile.el
 
-(autoload 'typst-ts-compile-and-preview "typst-ts-compile" "\
-Compile & Preview.
+(autoload 'typst-ts-compile-and-preview "typst-ts-compile"
+"Compile & Preview.
 Assuming the compile output file name is in default style." t)
-(autoload 'typst-ts-preview "typst-ts-compile" "\
-Preview the typst document output.
+(autoload 'typst-ts-preview "typst-ts-compile"
+"Preview the typst document output.
 If BUFFER is passed, preview its output, otherwise use current buffer.
 
 (fn &optional BUFFER)" t)
-(autoload 'typst-ts-compilation-mode "typst-ts-compile" "\
-Customized major mode for typst watch compilation.
+(autoload 'typst-ts-compilation-mode "typst-ts-compile"
+"Customized major mode for typst watch compilation.
 
-(fn)")
+In addition to any hooks its parent mode `compilation-mode' might have
+run, this mode runs the hook `typst-ts-compilation-mode-hook', as the
+final or penultimate step during initialization.
+
+\\{typst-ts-compilation-mode-map}" t)
 (register-definition-prefixes "typst-ts-compile" '("typst-ts-compil"))
 
 
@@ -53,8 +57,8 @@ Customized major mode for typst watch compilation.
 
 ;;; Generated autoloads from typst-ts-lsp.el
 
-(autoload 'typst-ts-lsp-download-binary "typst-ts-lsp" "\
-Download latest tinymist binary to `typst-ts-lsp-download-path'.
+(autoload 'typst-ts-lsp-download-binary "typst-ts-lsp"
+"Download latest tinymist binary to `typst-ts-lsp-download-path'.
 Will override old versions." t)
 (register-definition-prefixes "typst-ts-lsp" '("typst-ts-lsp-download-path"))
 
@@ -66,10 +70,14 @@ Will override old versions." t)
 
 ;;; Generated autoloads from typst-ts-mode.el
 
-(autoload 'typst-ts-mode "typst-ts-mode" "\
-Major mode for editing Typst, powered by tree-sitter.
+(autoload 'typst-ts-mode "typst-ts-mode"
+"Major mode for editing Typst, powered by tree-sitter.
 
-(fn)" t)
+In addition to any hooks its parent mode `text-mode' might have run,
+this mode runs the hook `typst-ts-mode-hook', as the final or
+penultimate step during initialization.
+
+\\{typst-ts-mode-map}" t)
 (add-to-list 'auto-mode-alist '("\\.typ\\'" . typst-ts-mode))
 (register-definition-prefixes "typst-ts-mode" '("typst-ts-"))
 
@@ -86,12 +94,12 @@ Major mode for editing Typst, powered by tree-sitter.
 
 ;;; Generated autoloads from typst-ts-watch-mode.el
 
-(autoload 'typst-ts-watch-display-buffer "typst-ts-watch-mode" "\
-Display typst watch process buffer." t)
-(autoload 'typst-ts-watch-start "typst-ts-watch-mode" "\
-Watch(hot compile) current typst file." t)
-(autoload 'typst-ts-watch-stop "typst-ts-watch-mode" "\
-Stop watch process." t)
+(autoload 'typst-ts-watch-display-buffer "typst-ts-watch-mode"
+"Display typst watch process buffer." t)
+(autoload 'typst-ts-watch-start "typst-ts-watch-mode"
+"Watch(hot compile) current typst file." t)
+(autoload 'typst-ts-watch-stop "typst-ts-watch-mode"
+"Stop watch process." t)
 (register-definition-prefixes "typst-ts-watch-mode" '("typst-ts-watch-"))
 
 ;;; End of scraped data

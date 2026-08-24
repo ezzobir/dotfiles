@@ -11,13 +11,13 @@
 
 ;;; Generated autoloads from change-inner.el
 
-(autoload 'change-inner "change-inner" "\
-
+(autoload 'change-inner "change-inner"
+"
 
 (fn ARG)" t)
 (autoload 'copy-inner "change-inner" nil t)
-(autoload 'change-outer "change-inner" "\
-
+(autoload 'change-outer "change-inner"
+"
 
 (fn ARG)" t)
 (autoload 'copy-outer "change-inner" nil t)
