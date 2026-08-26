@@ -1,0 +1,73 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/ezzobir/" . "efs/")
+ ("/home/ezzobir/efs/programming/" . "typst/")
+ ("/home/ezzobir/efs/repos/" . "github/")
+ ("/home/ezzobir/efs/" . "programming/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ezzobir/efs/repos/github/ezzobir/notes/others/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/documents_to_give/files/"
+ "/home/ezzobir/efs/programming/typst/"
+ "/home/ezzobir/Downloads/"
+ "/home/ezzobir/.config/niri/dms/"
+ "/home/ezzobir/Documents/"
+ "/home/ezzobir/efs/repos/github/ezzobir/notes/typst/"
+ "~/efs/programming/typst/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "saida_khettou.txt"
+ "talab_khati_tibaza.typ"
+ "main.typ"
+ "excepLicense.pdf"
+ "binds.kdl"
+ "test.typ"
+ "numb.typ"
+ "en_main.typ"
+ "horizontal_rusor_box.typ"
+ "rusor_box.typ"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ezzobir/" (27275 13009 654801 971000) ".gnupg/" ".Xresources" ".Xresources.backup1783673954" ".Xresources.backup1783673945" ".gitconfig" ".bashrc" ".bash_profile" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/notes/others/" (27211 33927 467427 396000) "zino/" "youtube/" "wifi-password.typ" "tv/" "todo/" "the-rest/" "saida_khettou.txt" "programming/" "mrrobot.txt" "learning-plan/" "jobs/" "hadj_abdelkarim_fadaa_awlyaa.typ" "gromit-mpx/" "family/" "doctorat.typ" "cv/" "ayoub/" "algeria/" "README.md" "5rooms/" "2rooms6columns/" "2l.typ" "2l.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/documents_to_give/files/" (27268 40950 901140 971000) "template_talab_khati.pdf" "talab_khati_tibaza.typ" "talab_khati_tibaza.pdf" "talab_khati_blida.typ" "talab_khati_blida.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/programming/typst/" (27263 45009 340191 913000) "main.typ" "main.png" "main.pdf" "../" "./")
+
+ ("/home/ezzobir/Downloads/" (27263 44187 763107 773000) "excepLicense.pdf" "neomacs-0.0.15-x86_64-unknown-linux-gnu.AppImage" "Telegram Desktop/" "../" "./")
+
+ ("/home/ezzobir/.config/niri/dms/" (27231 46747 316475 212000) "binds.kdl" "wpblur.kdl" "windowrules.kdl" "cursor.kdl" "outputs.kdl" "alttab.kdl" "layout.kdl" "colors.kdl" "../" "./")
+
+ ("/home/ezzobir/Documents/" (27211 24338 38387 404000) "../" "./")
+
+ ("~/efs/programming/typst/" (27217 14556 726756 343000) "en_main.typ" "#main.typ#" "en_main.pdf" ".#main.typ" "main.typ" "main.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/notes/typst/" (27216 37568 945311 477000) "rusor/" "cover_page.typ" "boxes2.typ" "boxes1.typ" "../" "./")
+
+ ("/home/ezzobir/dotfiles/.config/emacs/" (27216 50074 941529 440000) "ido.last" "auto-save-list/" "transient/" "themes/" "init.el" "emacs-custom.el" "elpa/" "eln-cache/" "../" "./")
+
+ ("/home/ezzobir/Desktop/" (27211 24338 38387 404000) "../" "./")
+
+ ("/home/ezzobir/dotfiles/.config/emacs/auto-save-list/" (27215 19159 735113 286000) ".saves-51634-archlinux~" "../" "./")
+
+ ("/home/ezzobir/efs/programming/" (27212 49458 668909 677000) "typst/" "../" "./")
+
+ ("/home/ezzobir/efs/" (27212 49458 667909 664000) "programming/" "repos/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/" (27211 27773 621909 42000) "github/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/" (27208 54909 720816 918000) "ezzobir/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -6,13 +6,14 @@
     "modus": {
       "dark": {
         "flavor": "vivendi-deuteranopia",
-        "accent": "yellow"
+        "accent": "blue"
       },
       "light": {
         "flavor": "operandi-deuteranopia",
         "accent": "blue"
       }
-    }
+    },
+    "gruvboxMaterial": "hard"
   },
   "matugenScheme": "scheme-tonal-spot",
   "matugenContrast": 0,
