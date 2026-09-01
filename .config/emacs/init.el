@@ -170,14 +170,38 @@ there's a region, all lines that region covers will be duplicated."
 
 (keymap-set typst-ts-mode-map "C-c C-c" #'typst-ts-tmenu)
 
-;; tinymist
-(with-eval-after-load 'eglot
-  (with-eval-after-load 'typst-ts-mode
-    (add-to-list 'eglot-server-programs
-                 `((typst-ts-mode) .
-                   ,(eglot-alternatives `(,typst-ts-lsp-download-path
-                                          "tinymist"
-                                          "typst-lsp"))))))
+;; ;; tinymist
+;; (with-eval-after-load 'eglot
+
+;;   (with-eval-after-load 'typst-ts-mode
+
+;;     (add-to-list 'eglot-server-programs
+
+;;                  `((typst-ts-mode) .
+
+;;                    ,(eglot-alternatives `(,typst-ts-lsp-download-path
+;;                                           "tinymist"
+;;                                           "typst-lsp"))))))
+
+;; ;; typst preview
+;; (use-package websocket
+;;   :ensure t)
+
+;; (use-package typst-preview
+;;   :ensure t
+;;   ;; :load-path "path/to/typst-preview.el" ;; if installed manually
+;;   :init
+;;   (setq typst-preview-autostart t) ; start preview automatically when typst-preview-mode is activated
+;;   (setq typst-preview-open-browser-automatically t) ; open browser automatically when typst-preview-start is run
+
+;;   :custom
+;;   (typst-preview-browser "default") 	; this is the default option; other options are `eaf-browser' or `xwidget'.
+;;   (typst-preview-invert-colors "auto")	; invert colors depending on system theme
+;;   (typst-preview-executable "tinymist") ; path to tinymist binary (relative or absolute)
+;;   (typst-preview-partial-rendering t)   ; enable partial rendering 
+  
+;;   :config
+;;   (define-key typst-preview-mode-map (kbd "C-c C-j") 'typst-preview-send-position))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; CUSTOM FILE
@@ -264,3 +288,12 @@ there's a region, all lines that region covers will be duplicated."
   (define-key dired-mode-map (kbd "C-c C-n") #'my-dired-create-empty-file))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; ;; helix mode
+;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; (use-package helix
+;;   :ensure t
+;;   :hook ((helix-normal-mode . (lambda () (setq display-line-numbers 'relative)))
+;;          (helix-insert-mode . (lambda () (setq display-line-numbers t))))
+;;   :config
+;;   (helix-mode))
+;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

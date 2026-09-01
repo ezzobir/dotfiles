@@ -126,8 +126,10 @@ binds {
     Print { screenshot; }
     XF86Launch1 { screenshot; }
     Mod+Shift+E { quit; }
-    Mod+A repeat=false allow-inhibiting=false hotkey-overlay-title="run woomer" { spawn "/home/ezzobir/efs/repos/github/coffeeispower/woomer/target/debug/woomer"; }
-    Mod+T hotkey-overlay-title="Open Terminal" { spawn "alacritty"; }
+    Mod+A allow-inhibiting=false hotkey-overlay-title="run woomer" repeat=false { spawn "/home/ezzobir/efs/repos/github/coffeeispower/woomer/target/debug/woomer"; }
+    Mod+E hotkey-overlay-title="boomer" { spawn "sh" "-c" "grim -t ppm - | wayland-boomer"; }
+    Mod+Return hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
+    Mod+T hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
     Super+Return hotkey-overlay-title="Open Terminal" { spawn "alacritty"; }
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
     Mod+Shift+Slash { show-hotkey-overlay; }
