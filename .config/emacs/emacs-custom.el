@@ -5,7 +5,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(anzu avy change-inner embrace expand-region flx helix markdown-mode
+   '(anzu avy change-inner embrace expand-region flx markdown-mode
 	  multiple-cursors typst-ts-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

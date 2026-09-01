@@ -2,82 +2,29 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/ezzobir/" . "efs/")
  ("/home/ezzobir/efs/programming/" . "typst/")
- ("/home/ezzobir/efs/repos/" . "github/")
  ("/home/ezzobir/efs/" . "programming/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
  "/home/ezzobir/efs/programming/typst/"
- "/home/ezzobir/efs/programming/typst/charged-ieee/"
- "/home/ezzobir/efs/programming/typst/versatile-apa/"
- "~/efs/programming/typst/versatile-apa/"
- "/home/ezzobir/efs/repos/github/ezzobir/notes/others/"
- "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/documents_to_give/files/"
- "/home/ezzobir/Downloads/"
- "/home/ezzobir/.config/niri/dms/"
- "/home/ezzobir/Documents/"
- "/home/ezzobir/efs/repos/github/ezzobir/notes/typst/"
- "~/efs/programming/typst/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "main.typ"
- "saida_khettou.txt"
- "talab_khati_tibaza.typ"
- "excepLicense.pdf"
- "binds.kdl"
- "test.typ"
- "numb.typ"
- "en_main.typ"
- "horizontal_rusor_box.typ"
- "rusor_box.typ"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/efs/programming/typst/" (27285 54578 801613 551000) "main.typ" "main.png" "myimage.png" "main.pdf" "../" "./")
-
- ("/home/ezzobir/efs/" (27285 54513 544677 99000) "apps/" "programming/" "repos/" "../" "./")
-
- ("/home/ezzobir/efs/apps/" (27285 54514 908738 786000) "neomacs-0.0.16-x86_64-unknown-linux-gnu.AppImage" "../" "./")
-
- ("/home/ezzobir/efs/programming/typst/charged-ieee/" (27283 19678 856312 744000) "main.pdf" "refs.bib" "main.typ" "../" "./")
-
- ("/home/ezzobir/" (27283 19368 971701 494000) ".gnupg/" ".Xresources" ".Xresources.backup1783673954" ".Xresources.backup1783673945" ".gitconfig" ".bashrc" ".bash_profile" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
-
- ("~/efs/programming/typst/" (27280 39335 449938 593000) "main.typ" "main.png" "myimage.png" "main.pdf" "../" "./")
-
- ("/home/ezzobir/efs/repos/github/ezzobir/notes/typst/" (27280 33942 534132 509000) "important_websites/" "code_snippet/" "../" "./")
-
- ("/home/ezzobir/Documents/" (27231 20023 849652 198000) "test.typ" "test.pdf" "../" "./")
-
- ("/home/ezzobir/Downloads/" (27280 32951 955455 634000) "lat.png" "TYPST HANDBOOK_FROM ZERO TO HERO_STEFANO COELATI RAMA_EN.pdf" "undergradmath.pdf" "اشتغال-السلطة-الرمزية-في-رواية-_عشب-الليل_-لإبراهيم-الكوني.pdf" "Telegram Desktop/" "ta3lim/" "../" "./")
-
- ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/documents_to_give/files/" (27268 41242 553387 331000) "template_talab_khati.pdf" "talab_khati_tibaza.typ" "talab_khati_tibaza.pdf" "talab_khati_blida.typ" "talab_khati_blida.pdf" "../" "./")
-
- ("/home/ezzobir/efs/repos/github/ezzobir/notes/others/" (27270 257 100931 817000) "zino/" "youtube/" "wifi-password.typ" "tv/" "todo/" "the-rest/" "saida_khettou.txt" "programming/" "mrrobot.txt" "learning-plan/" "jobs/" "hadj_abdelkarim_fadaa_awlyaa.typ" "gromit-mpx/" "family/" "doctorat.typ" "cv/" "ayoub/" "algeria/" "README.md" "5rooms/" "2rooms6columns/" "2l.typ" "2l.pdf" "../" "./")
-
- ("/home/ezzobir/efs/programming/typst/versatile-apa/" (27279 21349 895258 202000) "main.pdf" "main.typ" "sections/" "bibliography/" "assets/" "../" "./")
-
- ("~/efs/programming/typst/versatile-apa/" (27279 20365 47172 844000) "main.typ" "sections/" "bibliography/" "assets/" "../" "./")
-
- ("/home/ezzobir/.config/niri/dms/" (27231 46747 316475 212000) "binds.kdl" "wpblur.kdl" "windowrules.kdl" "cursor.kdl" "outputs.kdl" "alttab.kdl" "layout.kdl" "colors.kdl" "../" "./")
-
- ("/home/ezzobir/dotfiles/.config/emacs/" (27216 50074 941529 440000) "ido.last" "auto-save-list/" "transient/" "themes/" "init.el" "emacs-custom.el" "elpa/" "eln-cache/" "../" "./")
-
- ("/home/ezzobir/Desktop/" (27211 24338 38387 404000) "../" "./")
-
- ("/home/ezzobir/dotfiles/.config/emacs/auto-save-list/" (27215 19159 735113 286000) ".saves-51634-archlinux~" "../" "./")
+ ("/home/ezzobir/efs/programming/typst/" (27285 54759 111595 841000) "main.typ" "main.png" "myimage.png" "main.pdf" "../" "./")
 
  ("/home/ezzobir/efs/programming/" (27212 49458 668909 677000) "typst/" "../" "./")
 
- ("/home/ezzobir/efs/repos/" (27211 27773 621909 42000) "github/" "../" "./")
+ ("/home/ezzobir/efs/" (27285 54513 544677 99000) "apps/" "programming/" "repos/" "../" "./")
 
- ("/home/ezzobir/efs/repos/github/" (27208 54909 720816 918000) "ezzobir/" "../" "./")
+ ("/home/ezzobir/" (27283 19368 971701 494000) ".gnupg/" ".Xresources" ".Xresources.backup1783673954" ".Xresources.backup1783673945" ".gitconfig" ".bashrc" ".bash_profile" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
