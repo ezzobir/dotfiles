@@ -5,11 +5,13 @@
 (setq mc/cmds-to-run-for-all
       '(
 	beginning-of-visual-line
+	cycle-spacing
 	end-of-visual-line
 	helix-go-end-line
 	helix-insert
 	helix-insert-exit
 	kill-region
+	my-toggle-bidi-direction-and-input-method
 	undefined
 	))
 

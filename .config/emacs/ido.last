@@ -2,29 +2,285 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira05/bita9a05/" . "parts/")
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira03/modakira03/" . "template/")
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira03/" . "modakira03/")
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira07/" . "template/")
+ ("/home/ezzobir/efs/repos/github/ezzobir/our_book/chapters/" . "02-exponential-logarithmic/")
+ ("/home/ezzobir/efs/repos/github/ezzobir/our_book/" . "lib/")
+ ("/home/ezzobir/efs/repos/github/ezzobir/notes/typst/typst_docs/02_formatting/" . "01_set_rules/")
+ ("/home/ezzobir/" . "efs/")
  ("/home/ezzobir/efs/programming/" . "typst/")
  ("/home/ezzobir/efs/" . "programming/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/ezzobir/efs/programming/typst/"
+ "/home/ezzobir/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/home_works/ch01_wajib_manzili/wajib_sol/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira06/bita9a06/parts/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira06/bita9a06/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira06/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira05/bita9a05/parts/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira05/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ec/s1/interos_exams/2025_2026/2026-2027/sol_intero_2ec_s1/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ec/s1/interos_exams/2025_2026/2026-2027/intero_2ec_s1/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/01_1s/s1/lecours/moraja3a_1s_s1/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/home_works/ch01_wajib_manzili/wajib_sol/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/home_works/ch01_wajib_manzili/"
+ "/home/ezzobir/Downloads/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira03/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira03/bita9a03/parts/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira03/modakira03/template/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira03/bita9a03/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/lessons/ch02_statistics/first_page/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/lessons/ch02_statistics/bita9a_and_modakira06/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/lessons/ch02_statistics/bita9a_and_modakira06/bita9a06/parts/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/lessons/ch02_statistics/bita9a_and_modakira06/modakira06/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/lessons/ch02_statistics/bita9a_and_modakira06/bita9a06/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira08/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira08/bita9at08/parts/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira08/bita9at08/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira07/bita9at/parts/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira07/bita9at/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira07/template/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira09/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira08/template/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira07/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira07/plots/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira06/plots/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira06/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira06/template/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/00_tawzi3_and_tadaroj_sanawy/barnamj/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/home_works/ch01_wajib_manzili/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2ph_la/s1/lessons/ch02_statistics/modakira05/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2ph_la/s1/lessons/ch02_statistics/modakira05/template/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2ph_la/s1/lessons/ch02_statistics/first_page/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira05/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira05/plots/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira05/template/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/first_page/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira06/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira06/template/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira05/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira05/template/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira04/"
+ "/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira04/template/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "main.typ"
+ "fonts.typ"
+ "content.typ"
+ "temp.typ"
+ "wajib_sol.typ"
+ "head.typ"
+ "stages.typ"
+ "lesson_elements.typ"
+ "time.typ"
+ "second.typ"
+ "first.typ"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ezzobir/efs/programming/typst/" (27285 54759 111595 841000) "main.typ" "main.png" "myimage.png" "main.pdf" "../" "./")
+ ("/home/ezzobir/" (27359 28376 376640 814000) "fonts.pdf" "secondary-school/" "fonts.typ" "4takwim_tash5isi_2adab2.pdf" "3takwim_tach5isi_2adab.pdf" "2takwim_tach5isi_2tasyir.pdf" "1takwim_tach5isi_1adab.pdf" ".python_history" ".gnupg/" ".Xresources" ".Xresources.backup1783673954" ".Xresources.backup1783673945" ".gitconfig" ".bashrc" ".bash_profile" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
 
- ("/home/ezzobir/efs/programming/" (27212 49458 668909 677000) "typst/" "../" "./")
+ ("/home/ezzobir/efs/apps/" (27359 28137 730539 290000) "neomacs-0.0.20-x86_64-unknown-linux-gnu.AppImage" "../" "./")
 
- ("/home/ezzobir/efs/" (27285 54513 544677 99000) "apps/" "programming/" "repos/" "../" "./")
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/home_works/ch01_wajib_manzili/wajib_sol/" (27357 17591 228413 133000) "temp.typ" "head.typ" "content.typ" "wajib_sol.pdf" "wajib_sol.typ" "../" "./")
 
- ("/home/ezzobir/" (27283 19368 971701 494000) ".gnupg/" ".Xresources" ".Xresources.backup1783673954" ".Xresources.backup1783673945" ".gitconfig" ".bashrc" ".bash_profile" ".cargo/" ".rustup/" "dotfiles/" ".ssh/" "efs/" ".bash_history" ".local/" ".cache/" "Projects/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".config/" ".bash_logout" "../" "./")
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira06/bita9a06/parts/" (27357 10825 101842 596000) "lesson_elements.typ" "time.typ" "second.typ" "first.typ" "stages.typ" "temp.typ" "remarks.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira06/bita9a06/" (27357 5861 272538 359000) "card06.typ" "card06.pdf" "parts/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/home_works/ch01_wajib_manzili/" (27354 26671 754862 958000) "wajib/" "wajib_sol/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ec/s1/interos_exams/2025_2026/2026-2027/sol_intero_2ec_s1/" (27351 56023 221667 201000) "temp.typ" "ex2.typ" "ex3.typ" "sol_intero_2ec_s1.typ" "ex1.typ" "head.typ" "sol_intero_2ec_s1.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira05/bita9a05/parts/" (27351 59886 721505 875000) "first.typ" "stages.typ" "time.typ" "lesson_elements.typ" "temp.typ" "second.typ" "remarks.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira06/" (27357 5771 723940 125000) "bt_mo6.pdf" "bt_mo6.typ" "bita9a06/" "modakira06/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira05/bita9a05/" (27351 58422 955871 658000) "card05.typ" "card05.pdf" "parts/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira05/" (27351 58562 626226 243000) "bt_mo5.typ" "bt_mo5.pdf" "bita9a05/" "modakira05/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ec/s1/interos_exams/2025_2026/2026-2027/intero_2ec_s1/" (27351 55199 147134 413000) "ex3.typ" "ex2.typ" "ex1.typ" "temp.typ" "head.typ" "intero_2ec_s1.typ" "intero_2ec_s1.pdf" "../" "./")
+
+ ("/home/ezzobir/Downloads/" (27350 33267 137449 554000) "solution_wajib_2g.pdf" "solution_wajib_2g.typ" "bita9a_t9niya.jpg" "kael.png" "Telegram Desktop/" "January-December2026.pdf" "math_ec_lp_le_2as.pdf" "naam/" "ta3lim/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/01_1s/s1/lecours/moraja3a_1s_s1/" (27351 52306 277783 532000) "temp.typ" "head.typ" "moraja3a_1s_s1.typ" "moraja3a_1s_s1.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/home_works/ch01_wajib_manzili/wajib_sol/" (27350 34200 372795 243000) "temp.typ" "content.typ" "head.typ" "wajib_sol.typ" "wajib_sol.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira03/bita9a03/parts/" (27347 61857 519886 297000) "first.typ" "stages.typ" "time.typ" "lesson_elements.typ" "temp.typ" "second.typ" "remarks.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira03/" (27347 62016 977990 114000) "bt_mo3.typ" "bt_mo3.pdf" "bita9a03/" "modakira03/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira03/modakira03/template/" (27336 4077 873934 515000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira03/modakira03/" (27347 59627 770315 179000) "home_work.typ" "content.typ" "modakira3.pdf" "stages.typ" "time.typ" "second.typ" "modakira3.typ" "first.typ" "template/" "plots/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/lessons/ch02_statistics/bita9a_and_modakira06/bita9a06/parts/" (27347 58012 861172 796000) "time.typ" "lesson_elements.typ" "stages.typ" "temp.typ" "second.typ" "first.typ" "remarks.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/lessons/ch02_statistics/bita9a_and_modakira06/" (27347 58052 606102 736000) "modakira06/" "bita9a06/" "bt_mo.pdf" "bt_mo.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/lessons/ch02_statistics/first_page/" (27347 58844 414399 421000) "temp.typ" "first_page.typ" "images/" "first_page.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/bita9a_and_modakira03/bita9a03/" (27347 59652 466045 423000) "card03.typ" "card03.pdf" "parts/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/lessons/ch02_statistics/bita9a_and_modakira06/modakira06/" (27347 57877 568989 329000) "time.typ" "first.typ" "modakira06.typ" "modakira06.pdf" "template/" "plots/" "content.typ" "stages.typ" "home_work.typ" "second.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2lp_le/s1/lessons/ch02_statistics/bita9a_and_modakira06/bita9a06/" (27347 57379 877803 271000) "card06.typ" "card06.pdf" "parts/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira08/" (27347 55694 482755 126000) "modakira08/" "bt_mo.typ" "bita9at08/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira08/bita9at08/parts/" (27347 55167 561487 513000) "time.typ" "temp.typ" "lesson_elements.typ" "second.typ" "first.typ" "stages.typ" "remarks.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira08/bita9at08/" (27347 54212 5165 829000) "card08.pdf" "card08.typ" "parts/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira07/bita9at/parts/" (27347 53386 495522 363000) "second.typ" "lesson_elements.typ" "temp.typ" "time.typ" "stages.typ" "remarks.typ" "first.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira07/bita9at/" (27347 53431 304344 511000) "parts/" "card.typ" "card.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira07/template/" (27347 49856 588461 628000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira07/" (27347 48837 116741 59000) "bita9at/" "modakira07.typ" "modakira07.pdf" "content.typ" "template/" "first.typ" "second.typ" "plots/" "time.typ" "home_work.typ" "stages.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira05/template/" (27337 22998 666564 993000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira05/plots/" (27338 19006 210950 382000) "graphs.typ" "vts.typ" "vts.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira05/" (27338 20132 251880 192000) "time.typ" "second.typ" "first.typ" "content.typ" "home_work.typ" "stages.typ" "modakira05.typ" "modakira05.pdf" "template/" "plots/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/home_works/ch01_wajib_manzili/" (27338 53587 283979 567000) "ex0.typ" "drawing.typ" "temp.typ" "head.typ" "wajib_1l.typ" "wajib_1l.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/00_tawzi3_and_tadaroj_sanawy/barnamj/" (27338 51251 919975 405000) "barnamj.pdf" "barnamj.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira06/plots/" (27341 14585 592443 634000) "graphs.typ" "vts.typ" "vts.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira07/plots/" (27342 19102 659288 989000) "vts.typ" "graphs.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira09/" (27347 21697 239081 910000) "modakira09.pdf" "modakira09.typ" "content.typ" "second.typ" "template/" "first.typ" "plots/" "time.typ" "home_work.typ" "stages.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira08/template/" (27342 20845 162631 616000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira06/" (27341 12178 180355 993000) "template/" "content.typ" "second.typ" "first.typ" "modakira06.typ" "modakira06.pdf" "time.typ" "plots/" "home_work.typ" "stages.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/modakira06/template/" (27340 1265 627024 325000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2ph_la/s1/lessons/ch02_statistics/modakira05/" (27338 35809 868728 37000) "content.pdf" "modakira05.pdf" "modakira05.typ" "home_work.typ" "second.typ" "content.typ" "time.typ" "first.typ" "template/" "stages.typ" "plots/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2ph_la/s1/lessons/ch02_statistics/modakira05/template/" (27338 20440 909000 12000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2ph_la/s1/lessons/ch02_statistics/first_page/" (27338 20440 906146 5000) "temp.typ" "first_page.typ" "images/" "first_page.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira06/" (27336 13117 323477 143000) "stages.typ" "time.typ" "content.typ" "home_work.typ" "template/" "second.typ" "plots/" "modakira6.typ" "modakira6.pdf" "first.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/lessons/ch02_statistics/first_page/" (27337 17703 124994 977000) "images/" "temp.typ" "first_page.typ" "first_page.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira06/template/" (27336 12275 552274 298000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira05/" (27336 10503 692340 457000) "content.typ" "time.typ" "stages.typ" "home_work.typ" "template/" "second.typ" "plots/" "modakira5.typ" "modakira5.pdf" "first.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira05/template/" (27336 8681 222427 522000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira01/template/" (27335 60410 218463 437000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira01/" (27335 63174 992553 236000) "time.typ" "content.typ" "home_work.typ" "stages.typ" "template/" "second.typ" "plots/" "modakira1.typ" "modakira1.pdf" "first.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira02/template/" (27336 16 58286 710000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira02/" (27336 1876 241178 391000) "time.typ" "home_work.typ" "stages.typ" "content.typ" "template/" "second.typ" "plots/" "modakira2.typ" "modakira2.pdf" "first.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira03/template/" (27336 4077 873934 515000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira03/" (27336 4832 89778 505000) "time.typ" "home_work.typ" "content.typ" "stages.typ" "template/" "second.typ" "plots/" "modakira3.typ" "modakira3.pdf" "first.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira04/template/" (27336 6074 282872 685000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/s1/lessons/ch01_Numbers_and_arithmetic/modakira04/" (27336 7169 453332 187000) "time.typ" "home_work.typ" "content.typ" "stages.typ" "template/" "second.typ" "plots/" "modakira4.typ" "modakira4.pdf" "first.typ" "../" "./")
+
+ ("~/Downloads/" (27334 40116 908418 248000) "naam/" "Telegram Desktop/" "ta3lim/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2ph_la/diagnostic/sol_diagnostic_2ph/" (27332 53426 218349 861000) "temp.typ" "head.typ" "ex2.typ" "graphs.typ" "ex3.typ" "s_t.typ" "v_t.typ" "ex1.typ" "sol_diagnostic_2ph.typ" "sol_diagnostic_2ph.pdf" "ex4.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/students_list/" (27333 4341 261501 450000) "student_list_2g.pdf" "student_list_2g.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2ph_la/students_list/" (27333 4774 666475 764000) "student_list_2ph.typ" "student_list_2ph.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/students_list/" (27333 5213 189449 776000) "student_list_1l.typ" "student_list_1l.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/s1/ch01_wajib_manzili/" (27333 26530 173589 93000) "wajib_2g.typ" "temp.typ" "wajib_2g.pdf" "head.typ" "ex0.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2ph_la/00_tadaroj_and_tawzi3_sanawy/barnamj_2ph_la/" (27334 35589 283846 805000) "barnamj_2ph_la.typ" "barnamj_2ph_la.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/teacher_tt/2026_2027/fouka/" (27334 37695 678922 208000) "timetable.typ" "timetable.png" "timetable.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/00_tadaroj_and_tawzi3_sanawy/barnamj/" (27334 34547 821406 827000) "barnamj.pdf" "barnamj.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/diagnostic/sol_diagnostic_2g/" (27332 65369 533739 303000) "ex1.typ" "ex3.typ" "temp.typ" "graphs.typ" "v_t.typ" "ex2.typ" "s_t.typ" "head.typ" "sol_diagnostic_2g.typ" "sol_diagnostic_2g.pdf" "ex4.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/diagnostic/sol_diagnostic_1l/" (27332 8830 615040 688000) "temp.typ" "head.typ" "ex4.typ" "ex3.typ" "ex2.typ" "ex1.typ" "sol_diagnostic_1l.typ" "sol_diagnostic_1l.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/03_2ph_la/diagnostic/diagnostic_2ph/" (27330 43654 80092 608000) "diagnostic_2ph.typ" "ex2.typ" "ex1.typ" "temp.typ" "ex3.typ" "head.typ" "diagnostic_2ph.pdf" "plots.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/02_2ge/diagnostic/diagnostic_2ge/" (27331 53445 530009 315000) "temp.typ" "ex3.typ" "ex2.typ" "ex1.typ" "head.typ" "diagnostic_2g.typ" "diagnostic_2g.pdf" "plots.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/1/02_1l/diagnostic/diagnostic_1l/" (27330 42690 285838 721000) "ex4.typ" "temp.typ" "ex3.typ" "ex2.typ" "ex1.typ" "diagnostic_1l.typ" "head.typ" "diagnostic_1l.pdf" "plots.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/05_2ph_la/s1/lessons/ch01_exercices/exercices/" (27329 35564 825197 37000) "temp.typ" "ex12.typ" "ex08.typ" "ex07.typ" "ex06.typ" "ex05.typ" "ex03.typ" "ex04.typ" "ex02.typ" "ex09.typ" "ex10.typ" "ex11.typ" "ex14.typ" "ex15.typ" "ex16.typ" "ex18.typ" "ex13.typ" "ex17.typ" "ex01.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/05_2ph_la/s1/lessons/ch01_exercices/" (27329 37528 739979 286000) "exercices/" "silsila_fatima_mebarki.pdf" "temp.typ" "first.typ" "main.typ" "main.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/05_2ph_la/s1/lessons/ch01_percentages_and_indicators/modakira04/" (27324 8528 276044 535000) "stages.typ" "times.typ" "content.typ" "second.typ" "first.typ" "modakira04.typ" "modakira04.pdf" "template/" "plots/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/05_2ph_la/s1/lessons/ch01_percentages_and_indicators/modakira03/" (27323 40413 961191 685000) "stages.typ" "modakira03.typ" "times.typ" "content.typ" "second.typ" "first.typ" "modakira03.pdf" "template/" "plots/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/04_2ge/diagnostic/diagnostic_2ge/" (27313 53092 871602 363000) "ex3.typ" "ex2.typ" "ex1.typ" "head.typ" "diagnostic_2g.typ" "diagnostic_2g.pdf" "flagbox.typ" "temp.typ" "ex4.typ" "plots.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/05_2ph_la/s1/lessons/ch01_percentages_and_indicators/first_page/" (27319 45829 533777 374000) "first_page.typ" "temp.typ" "first_page.pdf" "images/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/05_2ph_la/s1/lessons/ch01_percentages_and_indicators/modakira01/template/" (27320 12279 286646 61000) "temp.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/05_2ph_la/s1/lessons/ch01_percentages_and_indicators/modakira01/" (27320 16410 155629 338000) "modakira01.typ" "modakira01.pdf" "first.typ" "stages.typ" "second.typ" "template/" "plots/" "content.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/2/05_2ph_la/s1/lessons/ch01_percentages_and_indicators/modakira02/" (27321 62969 224030 289000) "first.typ" "stages.typ" "content.typ" "second.typ" "modakira02.typ" "modakira02.pdf" "template/" "plots/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/our_book/chapters/" (27307 6890 520544 133000) "05-complex-numbers/" "04-sequences/" "03-probability/" "02-exponential-logarithmic/" "01-limits-derivatives/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/our_book/" (27307 6886 333455 318000) "main.typ" "main.pdf" "lib/" "chapters/" "book-cover/" "README.md" "LICENSE" ".git/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/our_book/chapters/01-limits-derivatives/" (27307 5960 647273 566000) "main.pdf" "solutions.typ" "exercises.typ" "main.typ" "shared.typ" "colors.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/our_book/book-cover/" (27307 6099 945631 766000) "cover-page.pdf" "cover-page.typ" "temp.typ" "colors.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/notes/typst/typst_docs/" (27308 6725 650370 962000) "02_reference/" "01_tutorial/" "logo.svg" "glacier.jpg" "d.typ" "d.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/secondary-school/01_Mathematics/documents_to_give/iwaa/" (27308 39343 68992 151000) "main.png" "main.typ" "main.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/our_book/chapters/02-exponential-logarithmic/" (27306 65094 157879 527000) "main.typ" "logarithmic.typ" "exponential.typ" "exercises.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/our_book/lib/" (27307 977 813382 281000) "temp.typ" "boxes.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/naam_book/" (27306 49966 568754 201000) "book-cover/" "chapters/" "figures/" "lib/" "main.typ" "main.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/notes/typst/typst_docs/02_formatting/01_set_rules/" (27301 59378 167083 609000) "f002.typ" "f001.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/notes/typst/typst_docs/02_formatting/" (27301 58616 649060 719000) "01_set_rules/" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/notes/typst/typst_docs/writing_in_Typst/03_math/" (27301 57596 760753 876000) "d015.typ" "d014.typ" "d013.typ" "d010.typ" "d012.typ" "d011.typ" "../" "./")
+
+ ("/home/ezzobir/efs/repos/github/ezzobir/notes/typst/typst_docs/writing_in_Typst/" (27301 57739 47907 948000) "d.typ" "d.pdf" "03_math/" "00/" "02_bibliography/" "01_figure/" "../" "./")
+
+ ("/home/ezzobir/efs/programming/typst/" (27301 42773 678700 617000) "typst_repos/" "main.typ" "../" "./")
+
+ ("/home/ezzobir/efs/programming/typst/typst_docs/" (27301 42310 423121 793000) "d7.typ" "d6.typ" "d5.typ" "d.typ" "glacier.jpg" "d1.typ" "d2.typ" "d3.typ" "d4.typ" "d.pdf" "../" "./")
+
+ ("/home/ezzobir/efs/" (27300 38769 378606 809000) "events/" "apps/" "programming/" "repos/" "../" "./")
+
+ ("/home/ezzobir/efs/programming/" (27293 54572 374265 697000) "typst/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -60,13 +60,13 @@
       (dank-yellow "#fff11a")       ; Warm yellow
       (dank-yellow-bright "#fff66d") ; Bright yellow
       (dank-blue "#0597f2")         ; Blue-green
-      (dank-magenta "#004876")      ; Teal-magenta
+      (dank-magenta "#0f3a5e")      ; Teal-magenta
       (dank-cyan "#2fafff")         ; Bright cyan
       (dank-cyan-bright "#4ebbff") ; Brightest cyan
       (dank-cyan-dark "#6dc7ff")   ; Dark cyan
       (dank-teal "#a1dbff")        ; Dark teal
-      (dank-fg "#e6f5ff")           ; Light foreground
-      (dank-gray "#919da5")         ; Gray
+      (dank-fg "#e6f3ff")           ; Light foreground
+      (dank-gray "#2e363c")         ; Gray
       (dank-white "#f4faff")       ; White
 
       ;; Map success colors to green
@@ -100,10 +100,10 @@
       (term2 "#2fff48")
       (term3 "#fff11a")
       (term4 "#0597f2")
-      (term5 "#004876")
+      (term5 "#0f3a5e")
       (term6 "#2fafff")
-      (term7 "#e6f5ff")
-      (term8 "#919da5")
+      (term7 "#e6f3ff")
+      (term8 "#2e363c")
       (term9 "#ff6293")
       (term10 "#6dff7e")
       (term11 "#fff66d")
